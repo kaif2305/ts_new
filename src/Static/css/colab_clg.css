@@ -63,3 +63,12 @@
     }
 
 }
+
+@media screen and (max-width: 300px) {
+
+
+    .clg-icon-container img {
+        height: 20px;
+    }
+
+}

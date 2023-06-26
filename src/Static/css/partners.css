@@ -24,13 +24,14 @@
 .wrapper .page-title h1 {
     font-family: 'Josefin Sans';
     font-size: calc(2* (1vh + 1vw));
+    margin-top: 3.7%;
 }
 
 .wrapper .page-title h3 {
     font-family: 'Montserrat';
     font-size: calc(0.8* (1vh + 1vw));
     font-weight: 400;
-    margin-bottom: 3%;
+    margin-bottom: 3.7%;
 }
 
 .our_team {

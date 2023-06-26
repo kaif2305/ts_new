@@ -28,7 +28,7 @@ export default function Toggle() {
                     <a style={{ animationDelay: "0.5s" }}> <Link to="/committee" > Committee </Link></a>
                     <a style={{ animationDelay: "0.6s" }}> <Link to="/international advisory" > International Advisory Committee </Link></a>
                     <a style={{ animationDelay: "0.7s" }}> <Link to="/partners" > Partners </Link></a>
-                    <a style={{ animationDelay: "0.8s" }}> <Link to='/abstract-submission' > Abstract Submission </Link></a>
+                    <a style={{ animationDelay: "0.8s" }}> <Link to='/abstract submission' > Abstract Submission </Link></a>
                     <a style={{ animationDelay: "0.9s" }}> <Link to="/contact us" > Contact Us </Link></a>
                 </nav>
             </div>
