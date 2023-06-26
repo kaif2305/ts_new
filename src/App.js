@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './Pages/Header/nav'
+import Footer from './Pages/footer'
+// import Colab_clg from './Pages/Header/colab_clg'
+import Partners from './Pages/partners'
+
+import PaperSubmission from './Pages/Paper submission/paper_submission'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Nav />
+        <Routes>
+          <Route exact path='/' element={<Partners />} />
+          <Route path='/abstract-submission' element={<PaperSubmission />} />
+
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
