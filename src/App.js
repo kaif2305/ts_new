@@ -5,6 +5,8 @@ import Partners from './Pages/partners'
 
 import Themes from './Pages/themes'
 
+import IntAdv from './Pages/internatinoal_advisory'
+
 import PaperSubmission from './Pages/Paper submission/paper_submission'
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -18,6 +20,7 @@ function App() {
           <Route exact path='/' element={<Partners />} />
           <Route path='/abstract submission' element={<PaperSubmission />} />
           <Route path='/conference theme' element={<Themes />} />
+          <Route path='/international advisory' element={<IntAdv />} />
 
         </Routes>
         <Footer />
