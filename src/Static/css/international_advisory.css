@@ -43,7 +43,6 @@
 }
 
 .inter-card img {
-    max-width: 280px;
     width: 150px;
     height: 150px;
     object-fit: cover;

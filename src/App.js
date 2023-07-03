@@ -3,6 +3,8 @@ import Footer from './Pages/footer'
 // import Colab_clg from './Pages/Header/colab_clg'
 import Partners from './Pages/partners'
 
+import Committee from './Pages/committee'
+
 import Themes from './Pages/themes'
 
 import IntAdv from './Pages/internatinoal_advisory'
@@ -21,7 +23,7 @@ function App() {
           <Route path='/abstract submission' element={<PaperSubmission />} />
           <Route path='/conference theme' element={<Themes />} />
           <Route path='/international advisory' element={<IntAdv />} />
-
+          <Route path='/committee' element={<Committee />} />
         </Routes>
         <Footer />
       </div>
