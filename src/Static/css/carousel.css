@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Tsukimi+Rounded:wght@300;400;500;600;700&display=swap');
+
+
+
+.aws-btn {
+
+    --slider-height-percentage: 60%;
+    --slider-transition-duration: 700ms;
+    --organic-arrow-thickness: 4px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 40px;
+    --organic-arrow-color: #26456f;
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-button-background: transparent;
+    --control-bullet-color: #2d5182;
+    --control-bullet-active-color: #26456f;
+    --loader-bar-color: #851515;
+    --loader-bar-height: 6px;
+}
+
+.awssld__bullets {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.awssld__wrapper {
+    display: block;
+    overflow: hidden;
+    height: 88vh;
+    width: 100%;
+    background-color: rgb(41, 44, 53);
+}
+
+
+
+.awssld__content {
+    background-color: var(--content-background-color);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.awssld__controls__arrow-right:before {
+    transform-origin: 100% 100% 0;
+    top: -50%;
+    transform: rotate(-45deg);
+    background-color: white;
+}
+
+.awssld__controls__arrow-right:after {
+    transform-origin: 100% 0% 0;
+    top: 50%;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+.awssld__controls__arrow-left:before {
+    transform-origin: 0 100% 0;
+    top: -50%;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+.awssld__controls__arrow-left:after {
+    transform-origin: 0 0 0;
+    top: 50%;
+    transform: rotate(-45deg);
+    background-color: white;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 88vh;
+    margin-top: 100px;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 12%), rgb(0 0 0 / 60%));
+}
+
+.crousel-middle-section {
+    z-index: 2;
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 30%;
+    justify-content: center;
+    color: white;
+}
+
+.crousel-middle-section .crousel-left-container h3 {
+
+    font-family: 'Josefin Sans';
+    font-size: calc(1.4*(1vh + 1vw));
+    margin-bottom: 4%;
+}
+
+.crousel-middle-section .crousel-left-container h1 {
+
+    font-family: 'Josefin Sans';
+    font-size: calc(2*(1vh + 1vw));
+    font-weight: 600;
+}
+
+.crousel-middle-section .crousel-left-container button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: 10%;
+}
+
+.crousel-middle-section .crousel-left-container button h4 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: calc(1.2*(1vh + 1vw));
+}
+
+
+.crousel-middle-section .crousel-right-container {
+    margin-top: -10%;
+}
+
+
+.crousel-middle-section .crousel-right-container h5 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: calc(0.7*(1vh + 1vw));
+    margin-bottom: 10%;
+}
+
+.cloab-carousel {
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 19%;
+    margin-right: 19%;
+    justify-content: center;
+    bottom: 3%;
+}
+
+.cloab-carousel img {
+    height: 38px;
+    width: 20%;
+}
+
+.cloab-carousel h6 {
+    width: 20%;
+    color: white;
+    font-size: calc(0.75*(1vh + 1vw));
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding-top: 13px;
+}
+
+.ynu-gdansk {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ynu-gdansk img {
+    height: 35px;
+    width: 40%;
+    margin-right: 5%;
+    object-fit: contain;
+    justify-self: left;
+
+}

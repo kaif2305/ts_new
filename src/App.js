@@ -7,10 +7,13 @@ import Committee from './Pages/committee'
 
 import Themes from './Pages/themes'
 
+import Home from './Pages/Home/home'
+
 import IntAdv from './Pages/internatinoal_advisory'
 
 import PaperSubmission from './Pages/Paper submission/paper_submission'
 import React from 'react';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -19,10 +22,11 @@ function App() {
       <div>
         <Nav />
         <Routes>
-          <Route exact path='/' element={<Partners />} />
+          <Route exact path='/' element={<Home />} />
           <Route path='/abstract submission' element={<PaperSubmission />} />
           <Route path='/conference theme' element={<Themes />} />
           <Route path='/international advisory' element={<IntAdv />} />
+          <Route path='/partners' element={<Partners />} />
           <Route path='/committee' element={<Committee />} />
         </Routes>
         <Footer />
