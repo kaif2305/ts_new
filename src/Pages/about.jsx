@@ -62,8 +62,8 @@ export default function About() {
             <div className="about_flex_container1">
                 <div className="about_left_container">
                     <div className="clg_name">
-                        <h1><b>Vellore Institute of Technology, Vellore</b></h1>
-                        <h1><b>INDIA</b></h1>
+                        <h1>Vellore Institute of Technology, Vellore</h1>
+                        <h1>INDIA</h1>
                     </div>
 
                     <p>Vellore Institute of Technology was established in 1984 as Vellore Engineering College by the Chancellor,
@@ -90,8 +90,8 @@ export default function About() {
 
                 <div className="about_right_container2">
                     <div className="clg_name">
-                        <h2><b>Yokohama National University, Yokohama</b></h2>
-                        <h2><b>JAPAN</b></h2>
+                        <h2>Yokohama National University, Yokohama</h2>
+                        <h2>JAPAN</h2>
                     </div>
                     <p>Founded in 1874, Yokohama National University has emerged as a leading international educational hub.
                         The institution fosters practical learning based on Yokohama's deep-rooted history and tradition as a
@@ -108,8 +108,8 @@ export default function About() {
             <div className="about_flex_container1">
                 <div className="about_left_container">
                     <div className="clg_name">
-                        <h1><b>Gdańsk University of Technology, Gdańsk</b></h1>
-                        <h1><b>POLAND</b></h1>
+                        <h1>Gdańsk University of Technology, Gdańsk</h1>
+                        <h1>POLAND</h1>
                     </div>
 
                     <p>The Gdansk University of Technology (GUT) was founded in 1899 by the decree of Emperor Wilhelm II and

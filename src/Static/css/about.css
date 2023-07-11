@@ -76,11 +76,11 @@
 }
 
 .tech-outer1 .tech-right-container p {
-    font-size: calc(0.68*(1vh + 1vw));
+    font-size: calc(0.65*(1vh + 1vw));
     line-height: 28px;
     text-align: justify;
     padding-top: 20px;
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat';
     word-spacing: 2px;
 }
 
@@ -129,17 +129,17 @@
 .about_left_container .clg_name h1 {
     padding: 0;
     margin: 0;
-    font-family: 'Cormorant Garamond', serif;
-    /* font-weight: 400; */
+    font-family: 'Josefin Sans';
+    font-weight: 400;
     font-size: calc(1*(1vh + 1vw));
 }
 
 .about_left_container p {
     width: 90%;
     text-align: justify;
-    font-size: calc(0.7*(1vh + 1vw));
+    font-size: calc(0.65*(1vh + 1vw));
     line-height: 28px;
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat';
 }
 
 .about_right_container {
@@ -155,11 +155,7 @@
 }
 
 .about_left_container2 {
-
     left: 0;
-
-
-
 }
 
 .about_left_container2 img {
@@ -170,9 +166,7 @@
 }
 
 .about_right_container2 {
-    /* padding-top: 3.5%; */
     width: 40%;
-
     right: 0;
 }
 
@@ -186,7 +180,7 @@
 .about_right_container2 .clg_name h2 {
     padding: 0;
     margin: 0;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Josefin Sans';
     /* font-weight: 400; */
     font-size: calc(1*(1vh + 1vw));
 }
@@ -195,9 +189,9 @@
     width: 90%;
     margin-left: 10%;
     text-align: justify;
-    font-size: calc(0.7*(1vh + 1vw));
+    font-size: calc(0.65*(1vh + 1vw));
     line-height: 28px;
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat';
 }
 
 
@@ -215,7 +209,7 @@
 
 
 .flex_container3 h4 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Josefin Sans';
 
     text-shadow: 1px 5px 5px rgba(0, 0, 0, 0.04);
     text-align: center;
@@ -229,7 +223,7 @@
     margin-top: 30px;
     list-style-type: square;
     margin-bottom: 0;
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat';
     font-weight: 400;
     font-size: calc(0.7*(1vh + 1vw));
     text-shadow: 1px 5px 5px rgba(0, 0, 0, 0.04);
@@ -237,7 +231,7 @@
 
 .flex_container3 p {
     margin-top: 30px;
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat';
     font-weight: 400;
     font-size: calc(0.8*(1vh + 1vw));
     text-shadow: 1px 5px 5px rgba(0, 0, 0, 0.04);
@@ -315,7 +309,6 @@
     .about_left_container .clg_name h1 {
         padding: 0;
         margin: 0;
-        font-family: 'Cormorant Garamond', serif;
         /* font-weight: 400; */
         font-size: calc(1*(1.2vh + 1.2vw));
     }
@@ -325,7 +318,6 @@
         text-align: justify;
         font-size: calc(0.7*(1.2vh + 1.2vw));
         line-height: 28px;
-        font-family: 'Lora', serif;
     }
 
     .about_right_container2 {
@@ -342,7 +334,6 @@
     .about_right_container2 .clg_name h1 {
         padding: 0;
         margin: 0;
-        font-family: 'Cormorant Garamond', serif;
         /* font-weight: 400; */
         font-size: calc(1*(1.2vh + 1.2vw));
     }
@@ -353,7 +344,6 @@
         text-align: justify;
         font-size: calc(0.7*(1.2vh + 1.2vw));
         line-height: 28px;
-        font-family: 'Lora', serif;
     }
 
     .flex_container3 h4 {
