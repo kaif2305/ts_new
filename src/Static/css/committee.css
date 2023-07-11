@@ -34,7 +34,7 @@
     margin: 15px;
     display: inline-block;
     background: linear-gradient(-140deg, #dfecf6, #90b1fa6e, #6cd1fc8c);
-
+    /* background: linear-gradient(-140deg, #dfecf600, #90b1fa29, #6cd1fc12); */
     height: 420px;
     display: flex;
     flex-wrap: nowrap;

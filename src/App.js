@@ -7,6 +7,8 @@ import Committee from './Pages/committee'
 
 import Themes from './Pages/themes'
 
+import About from './Pages/about'
+
 import Home from './Pages/Home/home'
 
 import IntAdv from './Pages/internatinoal_advisory'
@@ -23,6 +25,7 @@ function App() {
         <Nav />
         <Routes>
           <Route exact path='/' element={<Home />} />
+          <Route path='/about us' element={<About />} />
           <Route path='/abstract submission' element={<PaperSubmission />} />
           <Route path='/conference theme' element={<Themes />} />
           <Route path='/international advisory' element={<IntAdv />} />

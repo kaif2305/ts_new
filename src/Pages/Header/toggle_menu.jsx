@@ -23,7 +23,7 @@ export default function Toggle() {
             <div id='menu_id'>
                 <nav>
                     <a style={{ animationDelay: "0.2s" }}> <Link to="/" > Home</Link></a>
-                    <a style={{ animationDelay: "0.3s" }}> <Link to="/about" > About</Link></a>
+                    <a style={{ animationDelay: "0.3s" }}> <Link to="/about us" > About</Link></a>
                     <a style={{ animationDelay: "0.4s" }}> <Link to="/conference theme" > Conference Themes </Link></a>
                     <a style={{ animationDelay: "0.5s" }}> <Link to="/committee" > Committee </Link></a>
                     <a style={{ animationDelay: "0.6s" }}> <Link to="/international advisory" > International Advisory Committee </Link></a>
