@@ -72,3 +72,13 @@
     }
 
 }
+
+/* Css to make the collab_clg bar stick to the navbar */
+.sticky {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  /* Additional sticky styles */
+  /* ... */
+}
