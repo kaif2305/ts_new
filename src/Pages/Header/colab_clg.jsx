@@ -29,7 +29,7 @@ export default function Colab_clg() {
   return (
     <div
       id="navbar-header"
-    //   ref={navbarRef}
+      //   ref={navbarRef}
       className={`clg-icon-container ${isSticky ? "sticky" : ""}`}
     >
       <Container fluid>

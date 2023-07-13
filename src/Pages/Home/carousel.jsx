@@ -13,52 +13,50 @@ import '../../Static/css/carousel.css'
 export default function Carousel() {
     return (
         <div>
-            <Container fluid>
 
-                <div className='crousel-middle-section'>
-                    <Stack direction="horizontal" >
-                        <div className='crousel-left-container p-2'>
-                            <h3>International Conference on</h3>
-                            <h1>Sustainable Technologies for <br /> Water and Wastewater Treatment</h1>
 
-                            <button>
-                                <h4>Know About Technoscape
-                                    &nbsp;
-                                    <img src='images/arrow.svg' />
-                                </h4>
-                            </button>
-                        </div>
+            <div className='crousel-middle-section'>
+                <div className='crousel-left-container'>
+                    <h3>International Conference on</h3>
+                    <h1>Sustainable Technologies for <br /> Water and Wastewater Treatment</h1>
 
-                        <div className='crousel-right-container p-2 ms-auto'>
-                            <h5>
-                                <img src='images/location.svg' />
-                                &nbsp;
-                                Vellore Institute of Technology, <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Vellore, India</h5>
-                            <h5>
-                                <img src='images/calander.svg' />
-                                &nbsp;
-                                14th - 16th December
-                            </h5>
-                        </div>
-
-                    </Stack>
+                    <button>
+                        <h4>Know About Technoscape
+                            &nbsp;
+                            <img src='images/arrow.svg' />
+                        </h4>
+                    </button>
                 </div>
 
-                <div className='cloab-carousel'>
-                    <img src='images/VIT White.svg' />
-                    <h6>In association with</h6>
-                    <div className='ynu-gdansk'>
-                        {/* <Stack direction="horizontal"> */}
-                        <img src='images/YNU WHITE.png' />
-                        <img src='images/GDANSK WHITE.png' />
-                        {/* </Stack> */}
-                    </div>
+                <div className='crousel-right-container p-2 ms-auto'>
+                    <h5>
+                        <img src='images/location.svg' />
+                        &nbsp;
+                        Vellore Institute of Technology, <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Vellore, India</h5>
+                    <h5>
+                        <img src='images/calander.svg' />
+                        &nbsp;
+                        14th - 16th December
+                    </h5>
                 </div>
 
+            </div>
+
+            <div className='cloab-carousel'>
+                <img src='images/VIT White.svg' />
+                <h6>In association with</h6>
+                <div className='ynu-gdansk'>
+                    {/* <Stack direction="horizontal"> */}
+                    <img src='images/YNU WHITE.png' />
+                    <img src='images/GDANSK WHITE.png' />
+                    {/* </Stack> */}
+                </div>
+            </div>
 
 
 
-            </Container>
+
+
 
             <div className='overlay'>
             </div>

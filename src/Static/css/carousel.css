@@ -96,8 +96,16 @@
     margin-left: 10%;
     margin-right: 10%;
     top: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     color: white;
+}
+
+.crousel-middle-section .crousel-left-container {
+    width: 70%;
 }
 
 .crousel-middle-section .crousel-left-container h3 {
@@ -131,6 +139,7 @@
 
 .crousel-middle-section .crousel-right-container {
     margin-top: -10%;
+    width: 30%;
 }
 
 
@@ -143,7 +152,7 @@
 
 .cloab-carousel {
     position: absolute;
-    z-index: 4;
+    z-index: 2;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -182,5 +191,214 @@
     margin-right: 5%;
     object-fit: contain;
     justify-self: left;
+
+}
+
+
+@media screen and (max-width: 1030px) {
+
+    .overlay {
+        margin-top: 80px;
+
+    }
+}
+
+
+@media screen and (max-width: 990px) {
+
+    .overlay {
+        height: 94vh;
+    }
+
+    .crousel-middle-section {
+        top: 22%;
+    }
+
+    .awssld__wrapper {
+        height: 94vh;
+    }
+
+    .crousel-middle-section .crousel-left-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .crousel-middle-section .crousel-right-container {
+        margin-top: 10%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .crousel-middle-section .crousel-left-container button {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .crousel-middle-section .crousel-left-container h3 {
+        font-size: calc(1.4*(1.2vh + 1.2vw));
+    }
+
+    .crousel-middle-section .crousel-left-container h1 {
+        font-size: calc(2*(1.2vh + 1.2vw));
+    }
+
+    .crousel-middle-section .crousel-left-container button h4 {
+        font-size: calc(1.2*(1.2vh + 1.2vw));
+    }
+
+
+    .crousel-middle-section .crousel-right-container h5 {
+        font-size: calc(1*(1.2vh + 1.2vw));
+        margin-bottom: 5%;
+    }
+
+    .cloab-carousel {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cloab-carousel img {
+        height: 60px;
+        width: 100%;
+    }
+
+    .cloab-carousel h6 {
+        width: 100%;
+        color: white;
+        font-size: calc(0.8*(1.2vh + 1.2vw));
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .ynu-gdansk {
+        width: 80%;
+    }
+
+    .ynu-gdansk img {
+        height: 45px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 920px) {
+    .cloab-carousel img {
+        height: 50px;
+        width: 100%;
+    }
+
+    .ynu-gdansk {
+        width: 70%;
+    }
+
+    .ynu-gdansk img {
+        height: 40px;
+
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .cloab-carousel img {
+        height: 40px;
+        width: 100%;
+    }
+
+    .ynu-gdansk {
+        width: 55%;
+    }
+
+    .ynu-gdansk img {
+        height: 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .overlay {
+        margin-top: 65px;
+        height: 93.1vh;
+    }
+
+    .awssld__wrapper {
+        height: 93vh;
+    }
+
+
+    .cloab-carousel img {
+        height: 30px;
+        width: 100%;
+    }
+
+    .ynu-gdansk {
+        width: 55%;
+    }
+
+    .ynu-gdansk img {
+        height: 20px;
+
+    }
+
+    .cloab-carousel h6 {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .crousel-middle-section .crousel-right-container h5 img {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+
+    .ynu-gdansk {
+        width: 80%;
+    }
+
+}
+
+
+@media screen and (max-width: 300px) {
+
+
+    .overlay {
+        margin-top: 65px;
+        height: 95.2vh;
+    }
+
+    .awssld__wrapper {
+        height: 95vh;
+    }
+
+
+    .cloab-carousel img {
+        height: 25px;
+        width: 100%;
+    }
+
+    .ynu-gdansk {
+        width: 90%;
+    }
+
+    .ynu-gdansk img {
+        height: 17px;
+
+    }
+
+    .cloab-carousel h6 {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .crousel-middle-section .crousel-right-container h5 img {
+        height: 30px;
+    }
 
 }

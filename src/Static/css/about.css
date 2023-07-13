@@ -106,7 +106,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    position: relative;
     align-items: center;
     margin-bottom: 5%;
 
