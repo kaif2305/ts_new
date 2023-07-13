@@ -150,6 +150,21 @@
     margin-bottom: 10%;
 }
 
+.awssld__controls button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--control-button-width);
+    height: var(--control-button-height);
+    position: absolute;
+    z-index: 4;
+    top: calc(50% - (0.5 * var(--control-button-height)));
+    border: none;
+    background-color: var(--control-button-background);
+    color: #fff;
+    cursor: pointer;
+}
+
 .cloab-carousel {
     position: absolute;
     z-index: 2;
