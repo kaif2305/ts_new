@@ -33,7 +33,7 @@ function App() {
           <Route path="/partners" element={<Partners />} />
           <Route path="/committee" element={<Committee />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </div>
     </Router>
   );
