@@ -17,40 +17,45 @@ export default function Toggle() {
     setIsMenuOpen(false);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+    setIsMenuOpen(false);
+  };
+
   return (
     <body className={`${isMenuOpen ? "open" : ""}`}>
       <button className="burger" onClick={toggleMenu}></button>
       <div className="background"></div>
       <div id="menu_id">
         <nav>
-          <a style={{ animationDelay: "0.2s" }}>
+          <a style={{ animationDelay: "0.2s" }} onClick={scrollToTop}>
             {" "}
             <Link to="/"> Home</Link>
           </a>
-          <a style={{ animationDelay: "0.3s" }}>
+          <a style={{ animationDelay: "0.3s" }} onClick={scrollToTop}>
             {" "}
             <Link to="/about us"> About</Link>
           </a>
-          <a style={{ animationDelay: "0.4s" }}>
+          <a style={{ animationDelay: "0.4s" }} onClick={scrollToTop}>
             {" "}
             <Link to="/conference theme"> Conference Themes </Link>
           </a>
-          <a style={{ animationDelay: "0.5s" }}>
+          <a style={{ animationDelay: "0.5s" }} onClick={scrollToTop}>
             {" "}
             <Link to="/committee"> Committee </Link>
           </a>
-          <a style={{ animationDelay: "0.6s" }}>
+          <a style={{ animationDelay: "0.6s" }} onClick={scrollToTop}>
             {" "}
             <Link to="/international advisory">
               {" "}
               International Advisory Committee{" "}
             </Link>
           </a>
-          <a style={{ animationDelay: "0.7s" }}>
+          <a style={{ animationDelay: "0.7s" }} onClick={scrollToTop}>
             {" "}
             <Link to="/partners"> Partners </Link>
           </a>
-          <a style={{ animationDelay: "0.8s" }}>
+          <a style={{ animationDelay: "0.8s" }} onClick={scrollToTop}>
             {" "}
             <Link to="/abstract submission"> Abstract Submission </Link>
           </a>

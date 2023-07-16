@@ -28,7 +28,7 @@ export default function InternatinoalAdvisory() {
                                 <img src="images/prof/Akihiko Terada.jpeg" />
                                 <div>
                                     <h4> Prof. Akihiko Terada</h4>
-                                    <h3>Japan</h3>
+                                    <h3>JAPAN</h3>
                                     <h5>Tokyo University of Agriculture and Technology</h5>
 
                                 </div>
@@ -110,7 +110,7 @@ export default function InternatinoalAdvisory() {
 
                         <div className="outer-card">
                             <div className="inter-card">
-                                <img src="images\prof\Carlo Ingrao.jpeg"/>
+                                <img src="images\prof\Carlo Ingrao.jpeg" />
                                 <div>
                                     <h4>Prof. Carlo Ingrao</h4>
                                     <h3>ITALY</h3>
@@ -167,7 +167,7 @@ export default function InternatinoalAdvisory() {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="outer-card">
                             <div className="inter-card">
                                 <img src="images\prof\Hem Raj Pant.jpeg" />
