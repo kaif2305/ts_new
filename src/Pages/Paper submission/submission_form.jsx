@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../../Static/css/submission_form.css";
 import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,32 +11,12 @@ export default function Submission_form() {
     firstName: "",
     lastName: "",
     email: "",
+    gender: "",
     selectedTheme: "",
     jobTitle: "",
     country: "",
-    uploadedAbstract: {},
+    paperId: "",
   });
-
-  const [selectedFile, setSelectedFile] = useState(null);
-
-  useEffect(()=>{
-    if(selectedFile != undefined){
-        const reader = new FileReader();
-        reader.readAsArrayBuffer(selectedFile);
-        reader.onloadend = async () => {
-        setabstractSubmissionData((prevabstractSubmissionData) => ({
-        ...prevabstractSubmissionData,
-        ["uploadedAbstract"]: selectedFile,
-      }));
-    };
-    };
-    
-
-  },[selectedFile]);
-
-  const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
-  };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -46,10 +26,8 @@ export default function Submission_form() {
     }));
   };
 
-
   const handleSubmit = async (event) => {
     event.preventDefault();
-    
 
     try {
       const data = {
@@ -57,34 +35,24 @@ export default function Submission_form() {
         firstName: abstractSubmissionData.firstName,
         lastName: abstractSubmissionData.lastName,
         email: abstractSubmissionData.email,
+        gender: abstractSubmissionData.gender,
         selectedTheme: abstractSubmissionData.selectedTheme,
         jobTitle: abstractSubmissionData.jobTitle,
         country: abstractSubmissionData.country,
-        uploadedAbstract: abstractSubmissionData.uploadedAbstract,
+        paperId: abstractSubmissionData.paperId,
       };
       console.log(data);
       await axios.post(
-        "http://localhost:8081/users/submit-abstract-data",
+        "http://localhost:8081/payment/submit-payment-details",
         data,
         {
           headers: {
             "Access-Control-Allow-Origin": "*",
-            "Content-Type": "multipart/form-data",
           },
         }
       );
 
-      // Reset the form data after successful submission
-      setabstractSubmissionData({
-        title: "",
-        firstName: "",
-        lastName: "",
-        email: "",
-        selectedTheme: "",
-        jobTitle: "",
-        country: "",
-        uploadedAbstract: {},
-      });
+
 
       // Handle any additional logic after successful submission
       // ...
@@ -102,7 +70,6 @@ export default function Submission_form() {
           <form
             action="https://api.technoscape.in/users"
             method="POST"
-            enctype="multipart/form-data"
             className="form"
           >
             <div className="title-box">
@@ -176,10 +143,10 @@ export default function Submission_form() {
 
             <div className="input-box">
               <Stack gap={2}>
-                <label>Family Name</label>
+                <label>Last Name</label>
                 <input
                   type="text"
-                  placeholder="Enter family name"
+                  placeholder="Enter last name"
                   onChange={handleInputChange}
                   required
                   name="lastName"
@@ -191,15 +158,33 @@ export default function Submission_form() {
               <h3>Gender</h3>
               <div className="gender-option">
                 <div className="gender">
-                  <input type="radio" id="dr" name="gender" />
+                  <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="male"
+                    onChange={handleInputChange}
+                  />
                   <label for="check-male">Male</label>
                 </div>
                 <div className="gender">
-                  <input type="radio" id="mr" name="gender" />
+                  <input
+                    type="radio"
+                    id="female"
+                    value="female"
+                    name="gender"
+                    onChange={handleInputChange}
+                  />
                   <label for="check-female">Female</label>
                 </div>
                 <div className="gender">
-                  <input type="radio" id="mrs" name="gender" />
+                  <input
+                    type="radio"
+                    id="others"
+                    value="others"
+                    name="gender"
+                    onChange={handleInputChange}
+                  />
                   <label for="check-others">Others</label>
                 </div>
               </div>
@@ -623,7 +608,7 @@ export default function Submission_form() {
               </div>
             </div>
 
-            <div className="input-box-upload">
+            {/* <div className="input-box-upload">
               <label>Upload File </label> <br />
               <input
                 type="file"
@@ -631,8 +616,20 @@ export default function Submission_form() {
                 className="custom-file-input"
                 required
                 name="uploadedAbstract"
-                onChange={handleFileChange}
               />
+            </div> */}
+
+            <div className="input-box">
+              <Stack gap={2}>
+                <label>Paper ID</label>
+                <input
+                  type="text"
+                  placeholder="Paper ID"
+                  required
+                  onChange={handleInputChange}
+                  name="paperId"
+                />
+              </Stack>
             </div>
 
             <button onClick={handleSubmit}>Submit</button>
