@@ -15,6 +15,7 @@ import IntAdv from "./Pages/internatinoal_advisory";
 
 import PaperSubmission from "./Pages/Paper submission/paper_submission";
 import React from "react";
+import View from "./Pages/admin/view";
 
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -32,6 +33,7 @@ function App() {
           <Route path="/international advisory" element={<IntAdv />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/committee" element={<Committee />} />
+          <Route path="/admin/view" element={<View/>}/>
         </Routes>
         <Footer/>
       </div>
