@@ -5,16 +5,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Stack from 'react-bootstrap/Stack';
 
 export default function Submission_form() {
+<<<<<<< HEAD
 
     const handleButtonClick = () => {
         window.open('https://events.vit.ac.in/Home/index', '_blank');
     };
 
+=======
+>>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
     return (
         <Container>
             <div className="submission-form">
                 <Container>
+<<<<<<< HEAD
                     <h6>Payment Details</h6>
+=======
+                    <h6>Paper Submission Form</h6>
+>>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
                     <form action="https://api.technoscape.in/users" method="POST" enctype="multipart/form-data" className="form">
                         <div className="title-box">
                             <h3>Title</h3>
@@ -465,6 +472,7 @@ export default function Submission_form() {
                             </div>
                         </div>
 
+<<<<<<< HEAD
                         <div className="input-box">
                             <Stack gap={2}>
                                 <label>Paper Id</label>
@@ -478,6 +486,14 @@ export default function Submission_form() {
                         </div> */}
 
                         <button onClick={handleButtonClick}>Payment</button>
+=======
+                        <div className="input-box-upload">
+                            <label>Upload File </label> <br />
+                            <input type="file" id="file" className="custom-file-input" required name="uploadedAbstract" />
+                        </div>
+
+                        <button>Submit</button>
+>>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
                     </form>
                 </Container>
             </div>

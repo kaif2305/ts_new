@@ -79,9 +79,15 @@
 .sticky {
     position: fixed;
     top: 100px;
+<<<<<<< HEAD
     width: 100%;
     border-top: none;
     transition: top 5s ease;
+=======
+    left: 0;
+    width: 100%;
+    border-top: none;
+>>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
     /* Additional sticky styles */
     /* ... */
 }

@@ -27,13 +27,21 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about us" element={<About />} />
+<<<<<<< HEAD
           <Route path="/payment" element={<PaperSubmission />} />
+=======
+          <Route path="/abstract submission" element={<PaperSubmission />} />
+>>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
           <Route path="/conference theme" element={<Themes />} />
           <Route path="/international advisory" element={<IntAdv />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/committee" element={<Committee />} />
         </Routes>
+<<<<<<< HEAD
         <Footer />
+=======
+        <Footer/>
+>>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
       </div>
     </Router>
   );
