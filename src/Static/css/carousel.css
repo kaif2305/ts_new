@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Tsukimi+Rounded:wght@300;400;500;600;700&display=swap');
+
+
+
+.aws-btn {
+
+    --slider-height-percentage: 60%;
+    --slider-transition-duration: 700ms;
+    --organic-arrow-thickness: 4px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 40px;
+    --organic-arrow-color: #26456f;
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-button-background: transparent;
+    --control-bullet-color: #2d5182;
+    --control-bullet-active-color: #26456f;
+    --loader-bar-color: #851515;
+    --loader-bar-height: 6px;
+}
+
+.awssld__bullets {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.awssld__wrapper {
+    display: block;
+    overflow: hidden;
+    height: 88vh;
+    width: 100%;
+    background-color: rgb(41, 44, 53);
+}
+
+
+
+.awssld__content {
+    background-color: var(--content-background-color);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.awssld__controls__arrow-right:before {
+    transform-origin: 100% 100% 0;
+    top: -50%;
+    transform: rotate(-45deg);
+    background-color: white;
+}
+
+.awssld__controls__arrow-right:after {
+    transform-origin: 100% 0% 0;
+    top: 50%;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+.awssld__controls__arrow-left:before {
+    transform-origin: 0 100% 0;
+    top: -50%;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+.awssld__controls__arrow-left:after {
+    transform-origin: 0 0 0;
+    top: 50%;
+    transform: rotate(-45deg);
+    background-color: white;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 88vh;
+    margin-top: 100px;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 12%), rgb(0 0 0 / 60%));
+}
+
+.crousel-middle-section {
+    z-index: 2;
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.crousel-middle-section .crousel-left-container {
+    width: 70%;
+}
+
+.crousel-middle-section .crousel-left-container h3 {
+
+    font-family: 'Josefin Sans';
+    font-size: calc(1.4*(1vh + 1vw));
+    margin-bottom: 4%;
+}
+
+.crousel-middle-section .crousel-left-container h1 {
+
+    font-family: 'Josefin Sans';
+    font-size: calc(2*(1vh + 1vw));
+    font-weight: 600;
+}
+
+.crousel-middle-section .crousel-left-container button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: 10%;
+}
+
+.crousel-middle-section .crousel-left-container button h4 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: calc(1.2*(1vh + 1vw));
+}
+
+
+.crousel-middle-section .crousel-right-container {
+    margin-top: -10%;
+    width: 30%;
+}
+
+
+.crousel-middle-section .crousel-right-container h5 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: calc(0.7*(1vh + 1vw));
+    margin-bottom: 10%;
+}
+
+.awssld__controls button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--control-button-width);
+    height: var(--control-button-height);
+    position: absolute;
+    z-index: 4;
+    top: calc(50% - (0.5 * var(--control-button-height)));
+    border: none;
+    background-color: var(--control-button-background);
+    color: #fff;
+    cursor: pointer;
+}
+
+.cloab-carousel {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 19%;
+    margin-right: 19%;
+    justify-content: center;
+    bottom: 3%;
+}
+
+.cloab-carousel img {
+    height: 38px;
+    width: 20%;
+}
+
+.cloab-carousel h6 {
+    width: 20%;
+    color: white;
+    font-size: calc(0.75*(1vh + 1vw));
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding-top: 13px;
+}
+
+.ynu-gdansk {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ynu-gdansk img {
+    height: 35px;
+    width: 40%;
+    margin-right: 5%;
+    object-fit: contain;
+    justify-self: left;
+
+}
+
+
+@media screen and (max-width: 1030px) {
+
+    .overlay {
+        margin-top: 80px;
+
+    }
+}
+
+
+@media screen and (max-width: 990px) {
+
+    .overlay {
+        height: 94vh;
+    }
+
+    .crousel-middle-section {
+        top: 22%;
+    }
+
+    .awssld__wrapper {
+        height: 94vh;
+    }
+
+    .crousel-middle-section .crousel-left-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .crousel-middle-section .crousel-right-container {
+        margin-top: 10%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .crousel-middle-section .crousel-left-container button {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    .crousel-middle-section .crousel-left-container h3 {
+        font-size: calc(1.4*(1.2vh + 1.2vw));
+    }
+
+    .crousel-middle-section .crousel-left-container h1 {
+        font-size: calc(2*(1.2vh + 1.2vw));
+    }
+
+    .crousel-middle-section .crousel-left-container button h4 {
+        font-size: calc(1.2*(1.2vh + 1.2vw));
+    }
+
+
+    .crousel-middle-section .crousel-right-container h5 {
+        font-size: calc(1*(1.2vh + 1.2vw));
+        margin-bottom: 5%;
+    }
+
+    .cloab-carousel {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cloab-carousel img {
+        height: 60px;
+        width: 100%;
+    }
+
+    .cloab-carousel h6 {
+        width: 100%;
+        color: white;
+        font-size: calc(0.8*(1.2vh + 1.2vw));
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .ynu-gdansk {
+        width: 80%;
+    }
+
+    .ynu-gdansk img {
+        height: 45px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 920px) {
+    .cloab-carousel img {
+        height: 50px;
+        width: 100%;
+    }
+
+    .ynu-gdansk {
+        width: 70%;
+    }
+
+    .ynu-gdansk img {
+        height: 40px;
+
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .cloab-carousel img {
+        height: 40px;
+        width: 100%;
+    }
+
+    .ynu-gdansk {
+        width: 55%;
+    }
+
+    .ynu-gdansk img {
+        height: 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .overlay {
+        margin-top: 65px;
+        height: 93.1vh;
+    }
+
+    .awssld__wrapper {
+        height: 93vh;
+    }
+
+
+    .cloab-carousel img {
+        height: 30px;
+        width: 100%;
+    }
+
+    .ynu-gdansk {
+        width: 55%;
+    }
+
+    .ynu-gdansk img {
+        height: 20px;
+
+    }
+
+    .cloab-carousel h6 {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .crousel-middle-section .crousel-right-container h5 img {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+
+    .ynu-gdansk {
+        width: 80%;
+    }
+
+}
+
+
+@media screen and (max-width: 300px) {
+
+
+    .overlay {
+        margin-top: 65px;
+        height: 95.2vh;
+    }
+
+    .awssld__wrapper {
+        height: 95vh;
+    }
+
+
+    .cloab-carousel img {
+        height: 25px;
+        width: 100%;
+    }
+
+    .ynu-gdansk {
+        width: 90%;
+    }
+
+    .ynu-gdansk img {
+        height: 17px;
+
+    }
+
+    .cloab-carousel h6 {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .crousel-middle-section .crousel-right-container h5 img {
+        height: 30px;
+    }
+
+}

@@ -1,0 +1,182 @@
+.timer_date {
+    display: block;
+    height: 80vh;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+}
+
+
+.count-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.count-date {
+    width: 100%;
+    height: 75%;
+    position: relative;
+
+}
+
+
+.timer_date img[id=bg] {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.timer_date img[id=dates] {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    bottom: 1.5%;
+    position: absolute;
+    object-fit: contain;
+}
+
+.timer_date img[id=dates2] {
+    width: 90%;
+    height: 75%;
+    bottom: 1.5%;
+    position: absolute;
+    object-fit: contain;
+    visibility: hidden;
+}
+
+.timer-container {
+    width: 100%;
+    height: 25%;
+    position: relative;
+
+}
+
+.timer-container .timer div section p {
+    margin-bottom: 2%;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%;
+    width: 100%; */
+}
+
+.timer div:last-child {
+
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-size: calc(1.2*(1vh + 1vw));
+    padding: 2.5% 2%;
+}
+
+.timer div:last-child span {
+    font-size: calc(0.5*(1vh + 1vw));
+}
+
+
+@media screen and (max-width: 1290px) {
+
+    .timer_date {
+        height: 68vh;
+    }
+
+
+    .count-flex {
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    .timer_date {
+        height: 60vh;
+    }
+
+
+    .count-flex {
+        height: 60vh;
+    }
+
+    .timer_date img[id=dates] {
+        display: none;
+    }
+
+    .timer_date img[id=dates2] {
+        width: 100%;
+        height: 90%;
+        bottom: 1.5%;
+        position: absolute;
+        object-fit: contain;
+        visibility: visible;
+        margin-bottom: 5%;
+    }
+
+    .timer div:last-child {
+        font-size: calc(1.2*(1.2vh + 1.2vw));
+        padding: 5% 2%;
+    }
+
+    .timer div:last-child span {
+        font-size: calc(0.5*(1.2vh + 1.2vw));
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    .timer_date {
+        height: 45vh;
+    }
+
+
+    .count-flex {
+        height: 45vh;
+    }
+
+    .timer_date img[id=dates2] {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0%;
+    }
+
+    .timer div:last-child {
+        font-size: calc(1.2*(1.1vh + 1.1vw));
+
+    }
+
+    .timer div:last-child span {
+        font-size: calc(0.5*(1.1vh + 1.1vw));
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    .timer_date {
+        height: 50vh;
+    }
+
+
+    .count-flex {
+        height: 50vh;
+    }
+
+    .timer_date img[id=dates2] {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0%;
+    }
+}
