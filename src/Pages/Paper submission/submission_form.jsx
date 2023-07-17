@@ -52,8 +52,6 @@ export default function Submission_form() {
         }
       );
 
-
-
       // Handle any additional logic after successful submission
       // ...
     } catch (error) {
