@@ -115,11 +115,7 @@ body #menu_id nav>a:hover {
     font-size: calc(1*(1vh + 1vw));
     font-family: 'Montserrat';
     font-weight: 200;
-<<<<<<< HEAD
     padding: 20px 0 20px 0px;
-=======
-    padding: 20px 0 20px 20px;
->>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
     text-decoration: none;
     opacity: 0;
     cursor: pointer;

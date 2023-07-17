@@ -29,7 +29,6 @@ export default function Toggle() {
       <div id="menu_id">
         <nav>
           <a style={{ animationDelay: "0.2s" }} onClick={scrollToTop}>
-<<<<<<< HEAD
 
             <Link to="/">Home</Link>
           </a>
@@ -60,39 +59,6 @@ export default function Toggle() {
           </a>
           <a style={{ animationDelay: "0.9s" }} onClick={scrollToFooter}>
 
-=======
-            {" "}
-            <Link to="/"> Home</Link>
-          </a>
-          <a style={{ animationDelay: "0.3s" }} onClick={scrollToTop}>
-            {" "}
-            <Link to="/about us"> About</Link>
-          </a>
-          <a style={{ animationDelay: "0.4s" }} onClick={scrollToTop}>
-            {" "}
-            <Link to="/conference theme"> Conference Themes </Link>
-          </a>
-          <a style={{ animationDelay: "0.5s" }} onClick={scrollToTop}>
-            {" "}
-            <Link to="/committee"> Committee </Link>
-          </a>
-          <a style={{ animationDelay: "0.6s" }} onClick={scrollToTop}>
-            {" "}
-            <Link to="/international advisory">
-              {" "}
-              International Advisory Committee{" "}
-            </Link>
-          </a>
-          <a style={{ animationDelay: "0.7s" }} onClick={scrollToTop}>
-            {" "}
-            <Link to="/partners"> Partners </Link>
-          </a>
-          <a style={{ animationDelay: "0.8s" }} onClick={scrollToTop}>
-            {" "}
-            <Link to="/abstract submission"> Abstract Submission </Link>
-          </a>
-          <a style={{ animationDelay: "0.9s" }} onClick={scrollToFooter}>
->>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
             Contact Us
           </a>
         </nav>

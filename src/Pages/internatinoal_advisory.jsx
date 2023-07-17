@@ -11,11 +11,7 @@ export default function InternatinoalAdvisory() {
 
             <Container>
                 <div className="page-title">
-<<<<<<< HEAD
                     <h1>International Advisory Committee</h1>
-=======
-                    <h1>Internatinoal Advisory Committee</h1>
->>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
                     <h3>Our Profesors around the Globe.</h3>
                 </div>
             </Container>

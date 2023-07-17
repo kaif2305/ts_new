@@ -7,19 +7,15 @@ import Key_dates from './key_dates'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-<<<<<<< HEAD
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 
-=======
->>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
 
 import '../../Static/css/paper_submission.css'
 
 export default function Paper_Submission() {
-<<<<<<< HEAD
 
     const [show, setShow] = useState(false);
 
@@ -27,17 +23,11 @@ export default function Paper_Submission() {
     const handleShow = () => setShow(true);
 
 
-=======
->>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
     return (
         <div className="paper-sub-page-layout">
             <Container>
                 <div className="page-title">
-<<<<<<< HEAD
                     <h1>Paper Payment</h1>
-=======
-                    <h1>Paper Submissoin</h1>
->>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
                     <h3>Submit your research here.</h3>
                 </div>
             </Container>
@@ -58,11 +48,7 @@ export default function Paper_Submission() {
 
 
             <div className="align-submission">
-<<<<<<< HEAD
                 <h1>PAYMENT</h1>
-=======
-                <h1>SUBMISSION</h1>
->>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
                 <Container>
                     <ul>
                         <li>Paper Template link:
@@ -70,7 +56,6 @@ export default function Paper_Submission() {
                         <li>Paper should be submitted only in the prescribed template format</li>
                         <li>Only PDF files are accepted</li>
                         <li>Maximum file size is <span style={{ color: '#FA3D3D' }}> 2 MB </span></li>
-<<<<<<< HEAD
                         <li><span style={{ color: '#FA3D3D' }}>Please upload your transaction receipt here for verification </span>
 
                         </li>
@@ -133,10 +118,6 @@ export default function Paper_Submission() {
                         </Button>
                     </Modal.Footer>
                 </Modal>
-=======
-                    </ul>
-                </Container>
->>>>>>> 78363964a433aed830c86685b11a96bf03c116f7
 
                 <Container fluid>
                     <div className="submission-flex">
