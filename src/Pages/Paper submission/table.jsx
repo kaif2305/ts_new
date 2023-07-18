@@ -52,115 +52,115 @@ export default function TablePaperSubmission() {
                                 <h5>8500</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>300</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>350</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>450</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>350</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>400</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>500</h5>
                             </div></td>
 
                         </tr>
                         <tr>
                             <td>Researcg Scholars / <br />Students</td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>4000</h5>
+                            </div></td>
+                            <td><div className="td-container">
+                                <h5>5000</h5>
                             </div></td>
                             <td><div className="td-container">
                                 <h5>6000</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>200</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>250</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>350</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>250</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>300</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
-                            </div></td>
-                            <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>400</h5>
                             </div></td>
 
                         </tr>
                         <tr>
                             <td>Industrial <br />Delegates</td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>10000</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>12000</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>15000</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>350</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>400</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>500</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>450</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>500</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>600</h5>
                             </div></td>
 
                         </tr>
                         <tr>
                             <td>Accompanying <br />Delegates</td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>2000</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>2000</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>2000</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>125</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>125</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>125</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>150</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>150</h5>
                             </div></td>
                             <td><div className="td-container">
-                                <h5>6000</h5>
+                                <h5>150</h5>
                             </div></td>
 
                         </tr>

@@ -14,7 +14,7 @@ export default function About() {
             <Container>
                 <div className="page-title">
                     <h1>About Us</h1>
-                    <h3>Know about us.</h3>
+                    <h3></h3>
                 </div>
             </Container>
             <Colab_clg />

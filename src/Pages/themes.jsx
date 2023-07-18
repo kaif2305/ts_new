@@ -13,7 +13,7 @@ export default function Themes() {
             <Container>
                 <div className="page-title">
                     <h1>Conference Themes</h1>
-                    <h3>Different themes in different domains for Water Sustainability.</h3>
+                    <h3></h3>
                 </div>
             </Container>
 

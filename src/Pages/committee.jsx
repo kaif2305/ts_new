@@ -136,7 +136,7 @@ export default function Committee() {
             <Container>
                 <div className="page-title">
                     <h1>Committee Members</h1>
-                    <h3>Our Hard Working Members</h3>
+                    <h3></h3>
                 </div>
             </Container>
 

@@ -12,7 +12,7 @@ export default function InternatinoalAdvisory() {
             <Container>
                 <div className="page-title">
                     <h1>International Advisory Committee</h1>
-                    <h3>Our Profesors around the Globe.</h3>
+                    <h3></h3>
                 </div>
             </Container>
 
