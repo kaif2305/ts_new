@@ -51,7 +51,7 @@ export default function Submission_form() {
 
                         <div className="input-box">
                             <Stack gap={2}>
-                                <label>Family Name</label>
+                                <label>Last Name</label>
                                 <input type="text" placeholder="Enter family name" required name="lastName" />
                             </Stack>
                         </div>
@@ -81,7 +81,7 @@ export default function Submission_form() {
                             </Stack>
                         </div>
 
-                        <div className="input-box">
+                       {/* <div className="input-box">
                             <label>Themes</label>
                             <div className="select-box">
                                 <select name="selectedTheme">
@@ -133,7 +133,7 @@ export default function Submission_form() {
                                     </option>
                                 </select>
                             </div>
-                        </div>
+    </div>  */}
 
                         <div className="input-box">
                             <label>Category</label>
