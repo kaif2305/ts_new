@@ -21,7 +21,7 @@ export default function Carousel() {
                     <h1>Sustainable Technologies for <br /> Water and Wastewater Treatment</h1>
 
                     <button>
-                        <h4>Know About Technoscape
+                        <h4>Important Downloads
                             &nbsp;
                             <img src='images/arrow.svg' />
                         </h4>
@@ -63,9 +63,9 @@ export default function Carousel() {
             <AwesomeSlider animation="cubeAnimation">
 
 
-                <div data-src="images/img1.png" />
+                <div data-src="images/ocean.jpg" />
                 <div data-src="images/img2.jpg" />
-                <div data-src="images/ynu.jpg" />
+                <div data-src="images/Group 143.png" />
             </AwesomeSlider>
         </div >
     )
