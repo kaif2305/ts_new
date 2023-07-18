@@ -215,6 +215,38 @@
 
 }
 
+.offcanva-container h3 {
+    font-size: calc(01* (1vh + 1vw));
+    font-weight: 400;
+}
+
+.offcanva-container h5 {
+    font-size: calc(0.8* (1vh + 1vw));
+    font-weight: 400;
+    margin-top: 5%;
+}
+
+.offcanva-container button {
+    padding: 2% 5%;
+    color: #fff;
+    font-size: calc(0.7* (1vh + 1vw));
+    font-weight: 400;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+    text-align: center;
+    transition: all 0.2s ease;
+    background: #76AEC1;
+    display: block;
+}
+
+.offcanva-container button:hover {
+    background: #6798a8;
+
+}
+
 
 @media screen and (max-width: 1030px) {
 
@@ -271,6 +303,18 @@
     .crousel-middle-section .crousel-right-container h5 {
         font-size: calc(1*(1.2vh + 1.2vw));
         margin-bottom: 5%;
+    }
+
+    .offcanva-container h3 {
+        font-size: calc(01* (1.2vh + 1.2vw));
+    }
+
+    .offcanva-container h5 {
+        font-size: calc(0.8* (1.2vh + 1.2vw));
+    }
+
+    .offcanva-container button {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
     }
 
     .cloab-carousel {
@@ -337,6 +381,18 @@
     .ynu-gdansk img {
         height: 30px;
 
+    }
+
+    .offcanva-container h3 {
+        font-size: calc(01* (1.5vh + 1.5vw));
+    }
+
+    .offcanva-container h5 {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .offcanva-container button {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
     }
 
 }

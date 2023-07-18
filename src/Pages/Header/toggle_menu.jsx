@@ -41,11 +41,6 @@ export default function Toggle() {
             <Link to="/conference theme">Conference Themes </Link>
           </a>
 
-          <a style={{ animationDelay: "0.8s" }} onClick={scrollToTop}>
-
-            <Link to="/payment">Payment </Link>
-          </a>
-
           <a style={{ animationDelay: "0.5s" }} onClick={scrollToTop}>
 
             <Link to="/payment">Payment</Link>

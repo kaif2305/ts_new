@@ -56,68 +56,11 @@ export default function Paper_Submission() {
                         <li>Paper should be submitted only in the prescribed template format</li>
                         <li>Only PDF files are accepted</li>
                         <li>Maximum file size is <span style={{ color: '#FA3D3D' }}> 2 MB </span></li>
-                        <li><span style={{ color: '#FA3D3D' }}>Please upload your transaction receipt here for verification </span>
 
-                        </li>
-                        <li> <Button variant="primary" onClick={handleShow}>
-                            Upload Transaction Script
-                        </Button></li>
+
                     </ul>
                 </Container>
-                <Modal show={show} onHide={handleClose}>
-                    <Modal.Header closeButton>
-                        <Modal.Title>Transaction Script Upload </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                        <Form>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label>Full Name</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    placeholder="Enter full name"
-                                    autoFocus
-                                />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
-                                <Form.Label>Email Address</Form.Label>
-                                <Form.Control
-                                    type="email address"
-                                    placeholder="Enter email"
-                                    autoFocus
-                                />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput3">
-                                <Form.Label>Paper Id</Form.Label>
-                                <Form.Control
-                                    type="text"
-                                    placeholder="Enter paer id"
-                                    autoFocus
-                                />
-                            </Form.Group>
-                            <Form.Group
-                                className="mb-3"
-                                controlId="exampleForm.ControlInput4"
-                            >
-                                <Form.Label>Upload File</Form.Label>
-                                <Form.Control
-                                    type="file"
-                                    id="file"
-                                    className="custom-file-input"
-                                    required name="uploadTransactionScript"
-                                    autoFocus
-                                />
-                            </Form.Group>
-                        </Form>
-                    </Modal.Body>
-                    <Modal.Footer>
-                        <Button variant="secondary" onClick={handleClose}>
-                            Close
-                        </Button>
-                        <Button variant="primary" onClick={handleClose}>
-                            Save
-                        </Button>
-                    </Modal.Footer>
-                </Modal>
+
 
                 <Container fluid>
                     <div className="submission-flex">

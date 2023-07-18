@@ -4,7 +4,16 @@ import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Stack from 'react-bootstrap/Stack';
 
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
+
 export default function Submission_form() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     const handleButtonClick = () => {
         window.open('https://events.vit.ac.in/Home/index', '_blank');
@@ -81,7 +90,7 @@ export default function Submission_form() {
                             </Stack>
                         </div>
 
-                       {/* <div className="input-box">
+                        {/* <div className="input-box">
                             <label>Themes</label>
                             <div className="select-box">
                                 <select name="selectedTheme">
@@ -479,7 +488,71 @@ export default function Submission_form() {
 
                         <button onClick={handleButtonClick}>Payment</button>
                     </form>
+
+                    <ul style={{ marginTop: '3%' }}>
+                        <li style={{ color: 'red' }}>Upload your transaction receipt after payment</li>
+                    </ul>
+                    <Button variant="primary" onClick={handleShow}>
+                        Upload Transaction Script
+                    </Button>
+
+
                 </Container>
+
+                <Modal show={show} onHide={handleClose}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>Transaction Script Upload </Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <Form>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                                <Form.Label>Full Name</Form.Label>
+                                <Form.Control
+                                    type="text"
+                                    placeholder="Enter full name"
+                                    autoFocus
+                                />
+                            </Form.Group>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
+                                <Form.Label>Email Address</Form.Label>
+                                <Form.Control
+                                    type="email address"
+                                    placeholder="Enter email"
+                                    autoFocus
+                                />
+                            </Form.Group>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput3">
+                                <Form.Label>Paper Id</Form.Label>
+                                <Form.Control
+                                    type="text"
+                                    placeholder="Enter paer id"
+                                    autoFocus
+                                />
+                            </Form.Group>
+                            <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput4"
+                            >
+                                <Form.Label>Upload File</Form.Label>
+                                <Form.Control
+                                    type="file"
+                                    id="file"
+                                    className="custom-file-input"
+                                    required name="uploadTransactionScript"
+                                    autoFocus
+                                />
+                            </Form.Group>
+                        </Form>
+                    </Modal.Body>
+                    <Modal.Footer>
+                        <Button variant="secondary" onClick={handleClose}>
+                            Close
+                        </Button>
+                        <Button variant="primary" onClick={handleClose}>
+                            Save
+                        </Button>
+                    </Modal.Footer>
+                </Modal>
             </div>
         </Container>
     )
