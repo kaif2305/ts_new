@@ -27,8 +27,8 @@ export default function Paper_Submission() {
         <div className="paper-sub-page-layout">
             <Container>
                 <div className="page-title">
-                    <h1>Paper Payment</h1>
-                    <h3>Submit your research here.</h3>
+                    <h1>Registration Portal</h1>
+                    <h3></h3>
                 </div>
             </Container>
 
@@ -40,7 +40,7 @@ export default function Paper_Submission() {
                     <ul>
                         <li>Registration fee is inclusive of 18% GST</li>
                         <li>Check World Bank high/low income country classification here:
-                            <a href="#"> https://99designs.com/profiles/semasstudio/designs/1510123</a></li>
+                            <a href="https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups" target="_blank"> https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups</a></li>
                     </ul>
                 </Container>
                 <TablePaperSub />
