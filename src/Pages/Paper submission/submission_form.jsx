@@ -13,9 +13,18 @@ export default function Submission_form() {
   const [show, setShow] = useState(false);
   const [receiptData, setReceiptData] = useState({
     fullName: "",
-    email: "",
     paperId: "",
     file: null,
+  });
+  const [abstractSubmissionData, setabstractSubmissionData] = useState({
+    title: "",
+    firstName: "",
+    lastName: "",
+    email: "",
+    gender: "",
+    jobTitle: "",
+    country: "",
+    paperId: "",
   });
 
   const handleInputChange = (event) => {
@@ -48,8 +57,46 @@ export default function Submission_form() {
     }
   };
 
-  const handleButtonClick = () => {
-    window.open("https://events.vit.ac.in/Home/index", "_blank");
+  const handleFormInputChange = (e) => {
+    const { name, value } = e.target;
+    setabstractSubmissionData((prevabstractSubmissionData) => ({
+      ...prevabstractSubmissionData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    try {
+      const data = {
+        title: abstractSubmissionData.title,
+        firstName: abstractSubmissionData.firstName,
+        lastName: abstractSubmissionData.lastName,
+        email: abstractSubmissionData.email,
+        gender: abstractSubmissionData.gender,
+        jobTitle: abstractSubmissionData.jobTitle,
+        country: abstractSubmissionData.country,
+        paperId: abstractSubmissionData.paperId,
+      };
+      await axios.post(
+        "https://api.technoscape.in/payment/submit-payment-details",
+        data,
+        {
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
+        }
+      );
+
+      // Handle any additional logic after successful submission
+      // ...
+    } catch (error) {
+      // Handle error
+      console.error(error);
+    } finally {
+      window.open("https://events.vit.ac.in/Home/index", "_blank");
+    }
   };
 
   const handleClose = () => setShow(false);
@@ -71,23 +118,53 @@ export default function Submission_form() {
               <h3>Title</h3>
               <div className="title-option">
                 <div className="title">
-                  <input type="radio" id="dr" name="title" value="Dr" />
+                  <input
+                    type="radio"
+                    id="dr"
+                    name="title"
+                    value="Dr"
+                    onChange={handleFormInputChange}
+                  />
                   <label for="check-dr">Dr</label>
                 </div>
                 <div className="title">
-                  <input type="radio" id="mr" name="title" value="Mr" />
+                  <input
+                    type="radio"
+                    id="mr"
+                    name="title"
+                    value="Mr"
+                    onChange={handleFormInputChange}
+                  />
                   <label for="check-mr">Mr</label>
                 </div>
                 <div className="title">
-                  <input type="radio" id="mrs" name="title" value="Mrs" />
+                  <input
+                    type="radio"
+                    id="mrs"
+                    name="title"
+                    value="Mrs"
+                    onChange={handleFormInputChange}
+                  />
                   <label for="check-mrs">Mrs</label>
                 </div>
                 <div className="title">
-                  <input type="radio" id="miss" name="title" value="Ms" />
+                  <input
+                    type="radio"
+                    id="miss"
+                    name="title"
+                    value="Ms"
+                    onChange={handleFormInputChange}
+                  />
                   <label for="check-miss">Miss</label>
                 </div>
                 <div className="title">
-                  <input type="radio" id="others" name="title" value="others" />
+                  <input
+                    type="radio"
+                    id="others"
+                    name="title"
+                    value="others"
+                    onChange={handleFormInputChange}
+                  />
                   <label for="check-others">Others</label>
                 </div>
               </div>
@@ -101,6 +178,7 @@ export default function Submission_form() {
                   placeholder="Enter first name"
                   required
                   name="firstName"
+                  onChange={handleFormInputChange}
                 />
               </Stack>
             </div>
@@ -110,9 +188,10 @@ export default function Submission_form() {
                 <label>Last Name</label>
                 <input
                   type="text"
-                  placeholder="Enter family name"
+                  placeholder="Enter last name"
                   required
                   name="lastName"
+                  onChange={handleFormInputChange}
                 />
               </Stack>
             </div>
@@ -121,15 +200,33 @@ export default function Submission_form() {
               <h3>Gender</h3>
               <div className="gender-option">
                 <div className="gender">
-                  <input type="radio" id="dr" name="gender" />
+                  <input
+                    type="radio"
+                    id="male"
+                    value="male"
+                    name="gender"
+                    onChange={handleFormInputChange}
+                  />
                   <label for="check-male">Male</label>
                 </div>
                 <div className="gender">
-                  <input type="radio" id="mr" name="gender" />
+                  <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"
+                    onChange={handleFormInputChange}
+                  />
                   <label for="check-female">Female</label>
                 </div>
                 <div className="gender">
-                  <input type="radio" id="mrs" name="gender" />
+                  <input
+                    type="radio"
+                    id="others"
+                    name="gender"
+                    value="others"
+                    onChange={handleFormInputChange}
+                  />
                   <label for="check-others">Others</label>
                 </div>
               </div>
@@ -143,6 +240,7 @@ export default function Submission_form() {
                   placeholder="Enter email address"
                   required
                   name="email"
+                  onChange={handleFormInputChange}
                 />
               </Stack>
             </div>
@@ -204,7 +302,7 @@ export default function Submission_form() {
             <div className="input-box">
               <label>Category</label>
               <div className="select-box">
-                <select name="jobTitle">
+                <select name="jobTitle" onChange={handleFormInputChange}>
                   <option hidden>Category</option>
                   <option value="student">Academicians</option>
                   <option value="faculty">Research Scholars/Students</option>
@@ -217,7 +315,7 @@ export default function Submission_form() {
             <div className="input-box">
               <label>Country</label>
               <div className="select-box">
-                <select>
+                <select name="country" onChange={handleFormInputChange}>
                   <option hidden>Country</option>
                   <option value="Afghanistan">Afghanistan</option>
                   <option value="Åland Islands">Åland Islands</option>
@@ -542,7 +640,8 @@ export default function Submission_form() {
                   type="text"
                   placeholder="Enter paper id"
                   required
-                  name="paper id"
+                  name="paperId"
+                  onChange={handleFormInputChange}
                 />
               </Stack>
             </div>
@@ -552,7 +651,7 @@ export default function Submission_form() {
                             <input type="file" id="file" className="custom-file-input" required name="uploadedAbstract" />
                         </div> */}
 
-            <button onClick={handleButtonClick}>Payment</button>
+            <button onClick={handleSubmit}>Payment</button>
           </form>
 
           <ul style={{ marginTop: "3%" }}>
@@ -584,7 +683,7 @@ export default function Submission_form() {
                   autoFocus
                 />
               </Form.Group>
-              <Form.Group
+              {/* <Form.Group
                 className="mb-3"
                 controlId="exampleForm.ControlInput2"
               >
@@ -596,7 +695,7 @@ export default function Submission_form() {
                   onChange={handleInputChange}
                   autoFocus
                 />
-              </Form.Group>
+              </Form.Group> */}
               <Form.Group
                 className="mb-3"
                 controlId="exampleForm.ControlInput3"
