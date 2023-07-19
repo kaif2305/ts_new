@@ -1,7 +1,5 @@
 /* Import Google font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Tsukimi+Rounded:wght@300;400;500;600;700&display=swap');
 
 
 .submission-form {
@@ -13,6 +11,7 @@
     margin-bottom: 3%;
     padding: 25px 15px;
     float: right;
+    font-family: 'Montserrat';
 }
 
 .submission-form h6 {
@@ -64,6 +63,7 @@
     /* text-shadow: 1px 1px #fff; */
     font-weight: 600;
     margin-top: 1.5%;
+
     font-size: calc(0.7* (1vh + 1vw));
     margin-right: -10%;
 }
