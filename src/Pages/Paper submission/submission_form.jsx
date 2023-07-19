@@ -4,12 +4,26 @@ import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Stack from 'react-bootstrap/Stack';
 
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
+
 export default function Submission_form() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+    const handleButtonClick = () => {
+        window.open('https://events.vit.ac.in/Home/index', '_blank');
+    };
+
     return (
         <Container>
             <div className="submission-form">
                 <Container>
-                    <h6>Paper Submission Form</h6>
+                    <h6>Payment Details</h6>
                     <form action="https://api.technoscape.in/users" method="POST" enctype="multipart/form-data" className="form">
                         <div className="title-box">
                             <h3>Title</h3>
@@ -46,7 +60,7 @@ export default function Submission_form() {
 
                         <div className="input-box">
                             <Stack gap={2}>
-                                <label>Family Name</label>
+                                <label>Last Name</label>
                                 <input type="text" placeholder="Enter family name" required name="lastName" />
                             </Stack>
                         </div>
@@ -76,7 +90,7 @@ export default function Submission_form() {
                             </Stack>
                         </div>
 
-                        <div className="input-box">
+                        {/* <div className="input-box">
                             <label>Themes</label>
                             <div className="select-box">
                                 <select name="selectedTheme">
@@ -128,7 +142,7 @@ export default function Submission_form() {
                                     </option>
                                 </select>
                             </div>
-                        </div>
+    </div>  */}
 
                         <div className="input-box">
                             <label>Category</label>
@@ -460,14 +474,85 @@ export default function Submission_form() {
                             </div>
                         </div>
 
-                        <div className="input-box-upload">
-                            <label>Upload File </label> <br />
-                            <input type="file" id="file" className="custom-file-input" required name="uploadedAbstract" />
+                        <div className="input-box">
+                            <Stack gap={2}>
+                                <label>Paper Id</label>
+                                <input type="text" placeholder="Enter paper id" required name="paper id" />
+                            </Stack>
                         </div>
 
-                        <button>Submit</button>
+                        {/* <div className="input-box-upload">
+                            <label>Upload File </label> <br />
+                            <input type="file" id="file" className="custom-file-input" required name="uploadedAbstract" />
+                        </div> */}
+
+                        <button onClick={handleButtonClick}>Payment</button>
                     </form>
+
+                    <ul style={{ marginTop: '3%' }}>
+                        <li style={{ color: 'red' }}>Upload your transaction receipt after payment</li>
+                    </ul>
+                    <Button variant="primary" onClick={handleShow}>
+                        Upload Transaction Script
+                    </Button>
+
+
                 </Container>
+
+                <Modal show={show} onHide={handleClose}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>Transaction Script Upload </Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <Form>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                                <Form.Label>Full Name</Form.Label>
+                                <Form.Control
+                                    type="text"
+                                    placeholder="Enter full name"
+                                    autoFocus
+                                />
+                            </Form.Group>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
+                                <Form.Label>Email Address</Form.Label>
+                                <Form.Control
+                                    type="email address"
+                                    placeholder="Enter email"
+                                    autoFocus
+                                />
+                            </Form.Group>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlInput3">
+                                <Form.Label>Paper Id</Form.Label>
+                                <Form.Control
+                                    type="text"
+                                    placeholder="Enter paer id"
+                                    autoFocus
+                                />
+                            </Form.Group>
+                            <Form.Group
+                                className="mb-3"
+                                controlId="exampleForm.ControlInput4"
+                            >
+                                <Form.Label>Upload File</Form.Label>
+                                <Form.Control
+                                    type="file"
+                                    id="file"
+                                    className="custom-file-input"
+                                    required name="uploadTransactionScript"
+                                    autoFocus
+                                />
+                            </Form.Group>
+                        </Form>
+                    </Modal.Body>
+                    <Modal.Footer>
+                        <Button variant="secondary" onClick={handleClose}>
+                            Close
+                        </Button>
+                        <Button variant="primary" onClick={handleClose}>
+                            Save
+                        </Button>
+                    </Modal.Footer>
+                </Modal>
             </div>
         </Container>
     )

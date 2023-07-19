@@ -9,7 +9,7 @@ export default function Partners() {
         <div className="wrapper">
             <div className="page-title">
                 <h1>Partners</h1>
-                <h3>Our Partners in need</h3>
+                <h3></h3>
             </div>
 
             <Colab_clg />

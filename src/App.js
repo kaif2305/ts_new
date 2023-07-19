@@ -28,14 +28,14 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about us" element={<About />} />
-          <Route path="/abstract submission" element={<PaperSubmission />} />
+          <Route path="/payment" element={<PaperSubmission />} />
           <Route path="/conference theme" element={<Themes />} />
           <Route path="/international advisory" element={<IntAdv />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/committee" element={<Committee />} />
           <Route path="/admin/view" element={<View/>}/>
         </Routes>
-        <Footer/>
+        <Footer />
       </div>
     </Router>
   );

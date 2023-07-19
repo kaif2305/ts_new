@@ -81,8 +81,8 @@ export const Countdown = () => {
                 </section>
 
                 <div className="count-date">
-                    <img id="dates" src="images/Group 67.png" class="image2" />
-                    <img id="dates2" src="images/Group 70.png" class="image2" />
+                    <img id="dates" src="images/217.svg" class="image2" />
+                    <img id="dates2" src="images/218.svg" class="image2" />
                 </div>
             </div>
 

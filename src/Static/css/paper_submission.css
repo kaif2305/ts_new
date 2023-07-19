@@ -69,6 +69,27 @@
     height: fit-content;
 }
 
+.align-submission ul li button {
+
+    padding: 1% 2% 1% 2%;
+    color: #fff;
+    font-size: calc(0.7* (1vh + 1vw));
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+    text-align: center;
+    transition: all 0.2s ease;
+    background: #76AEC1;
+    display: block;
+}
+
+.align-submission ul li button:hover {
+    background: #6798a8;
+}
+
 
 
 @media screen and (max-width: 1030px) {
@@ -89,6 +110,11 @@
         font-size: calc(0.8* (1.2vh + 1.2vw));
     }
 
+    .align-submission ul li button {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+        padding: 2% 2% 2% 2%;
+    }
+
 
 }
 
@@ -106,7 +132,11 @@
     .submission-flex .sub-right-container {
         width: 100%;
         margin-left: 0%;
-        ;
+
+    }
+
+    .align-submission ul li button {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
     }
 
 
@@ -123,6 +153,8 @@
         font-size: calc(0.7* (1.2vh + 1.2vw));
     }
 
+
+
 }
 
 @media screen and (max-width: 450px) {
@@ -137,6 +169,10 @@
 
     .align-submission ul {
         line-height: 25px;
+    }
+
+    .align-submission ul li button {
+        padding: 3% 3% 3% 3%;
     }
 
 

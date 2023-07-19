@@ -79,9 +79,9 @@
 .sticky {
     position: fixed;
     top: 100px;
-    left: 0;
     width: 100%;
     border-top: none;
+    transition: top 5s ease;
     /* Additional sticky styles */
     /* ... */
 }
