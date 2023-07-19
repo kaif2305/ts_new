@@ -27,6 +27,7 @@
 
 .align-table ul {
     line-height: 40px;
+    font-family: 'Montserrat';
     font-size: calc(0.8* (1vh + 1vw));
 }
 
@@ -44,6 +45,7 @@
 
 .align-submission ul {
     line-height: 40px;
+    font-family: 'Montserrat';
     font-size: calc(0.8* (1vh + 1vw));
 }
 
