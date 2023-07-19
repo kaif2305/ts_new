@@ -51,7 +51,7 @@ export default function Carousel() {
                     <h5>
                         <img src='images/calander.svg' />
                         &nbsp;
-                        14th - 16th December
+                        14<sup>th</sup> - 16<sup>th</sup> December
                     </h5>
                 </div>
 

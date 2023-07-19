@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Tsukimi+Rounded:wght@300;400;500;600;700&display=swap');
+
 .desktop-key-dates {
     display: flex;
     flex-direction: column;
     width: 100%;
+    font-family: 'Montserrat';
 }
 
 .desktop-key-dates h4 {
@@ -30,6 +33,7 @@
 }
 
 .desktop-key-dates .left-sub-container h5 {
+    font-family: 'Montserrat';
     font-size: calc(0.7* (1vh + 1vw));
     color: #6EAABD;
     padding-top: 12px;
