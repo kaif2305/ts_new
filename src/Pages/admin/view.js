@@ -13,7 +13,7 @@ export default function View(){
 
       try {
 
-        const response=await axios.get('http://localhost:3001/admin/view');
+        const response=await axios.get('https://api.technoscape.in/admin/view');
         console.log("this ran")
 
         console.log(response.data)
