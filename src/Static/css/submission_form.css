@@ -163,7 +163,7 @@
 } */
 
 form button {
-    height: 50px;
+    /* height: 50px; */
     width: 200px;
     color: #fff;
     font-size: calc(0.7* (1vh + 1vw));
@@ -185,8 +185,8 @@ form button:hover {
 }
 
 .submission-form button {
-    height: 50px;
-    padding: 2% 5%;
+    /* height: 50px; */
+    padding: 2.8% 5%;
     color: #fff;
     font-size: calc(0.7* (1vh + 1vw));
     font-weight: 400;
@@ -275,7 +275,7 @@ form button:hover {
         font-size: calc(0.6* (1.2vh + 1.2vw));
     }
 
-    form button {
+    .submission-form button {
         font-size: calc(0.7* (1.2vh + 1.2vw));
     }
 
@@ -327,7 +327,7 @@ form button:hover {
         font-size: calc(0.7* (1.5vh + 1.5vw));
     }
 
-    form button {
+    .submission-form button {
         font-size: calc(0.7* (1.5vh + 1.5vw));
     }
 
@@ -397,7 +397,7 @@ form button:hover {
         font-size: calc(0.8* (1.5vh + 1.5vw));
     }
 
-    form button {
+    .submission-form button {
         font-size: calc(0.8* (1.5vh + 1.5vw));
     }
 

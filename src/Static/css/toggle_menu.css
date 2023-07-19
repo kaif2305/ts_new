@@ -93,6 +93,7 @@ body.open .background {
     justify-content: center;
     align-items: flex-start;
     padding-right: 100px;
+    margin-left: 20px;
 }
 
 body.open #menu_id {
