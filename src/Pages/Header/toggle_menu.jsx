@@ -43,7 +43,7 @@ export default function Toggle() {
 
           <a style={{ animationDelay: "0.5s" }} onClick={scrollToTop}>
 
-            <Link to="/payment">Payment</Link>
+            <Link to="/registration">Registration</Link>
           </a>
           <a style={{ animationDelay: "0.6s" }} onClick={scrollToTop}>
 
