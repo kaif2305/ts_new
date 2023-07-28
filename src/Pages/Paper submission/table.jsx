@@ -19,7 +19,7 @@ export default function TablePaperSubmission() {
                                 LOW INCOME COUNTRY (USD)
                             </th>
                             <th colSpan={3} style={{ borderBottom: '1px solid #dddddd' }}>
-                                HIGH INCOME COUNTRY(USD)
+                                HIGH INCOME COUNTRY (USD)
                             </th>
                         </tr>
                     </thead>
