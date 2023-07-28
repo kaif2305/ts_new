@@ -51,7 +51,7 @@ export default function Paper_Submission() {
 
             <div className="align-submission">
                 <h1>PAYMENT</h1>
-                <Container>
+                {/* <Container>
                     <ul>
                         <li>Paper Template link:
                             <a href="#"> Paper Template</a></li>
@@ -61,7 +61,7 @@ export default function Paper_Submission() {
 
 
                     </ul>
-                </Container>
+                </Container> */}
 
 
                 <Container fluid>

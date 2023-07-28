@@ -180,13 +180,13 @@ export default function Committee() {
                             title="Dr. G. VISWANATHAN"
                             keyboard={true}
                         >
-                            <h5><b>Dr.G.Viswanathan</b> - Chancellor<br />
-                                Dr. G.V, the founder-chancellor of VIT University, was born on December 8, 1938 in a remote
+                            <h5><b>Dr. G. Viswanathan</b> - Chancellor<br />
+                                Dr. G. Viswanathan, the founder-chancellor of VIT University, was born on December 8, 1938 in a remote
                                 village near Vellore in Tamil Nadu. Dr. GV’s life is a source of inspiration to the aspiring
                                 youth.<br /> <br />
 
-                                <b>Dr. G.V</b> − The Student<br />
-                                Dr. GV completed Advanced Management Program at Harvard Business School in 2003, nearly four
+                                <b>Dr. G. Viswanathan</b> − The Student<br />
+                                Dr. G. Viswanathan completed Advanced Management Program at Harvard Business School in 2003, nearly four
                                 decades after his University education, reaffirming his fervour in being an eternal student.
                                 He excelled in academics right from his childhood. His early education was confined to his
                                 small village where he studied in Tamil - his mother tongue. His pre-university education at
@@ -194,19 +194,19 @@ export default function Committee() {
                                 obtain his Bachelors and Masters Degrees in Economics from the prestigious Loyola College,
                                 Chennai. Following this, he graduated in Law from Madras Law College.
                                 <br /> <br />
-                                <b>Dr. G.V</b> − The Leader of the People<br />
+                                <b>Dr. G. Viswanathan</b> − The Leader of the People<br />
                                 A student leader in his twenties entering Indian parliament was something incredible,
-                                especially in 1960s. But it was Dr. GV who championed people’s issues in the parliament and
+                                especially in 1960s. But it was Dr. G. Viswanathan who championed people’s issues in the parliament and
                                 they, in turn, reposed faith in the leader who fulfilled their expectations. They re-elected
                                 him by a bigger margin in the next election for another five-year term. He travelled to
                                 different parts of the world as a member of parliamentary delegations and appreciated issues
-                                in a global perspective. Dr. GV wanted to play a bigger role in the provincial politics in
+                                in a global perspective. Dr. G. Viswanathan wanted to play a bigger role in the provincial politics in
                                 order to make a direct contribution in bettering the lives of the people in the region. He
                                 was elected to Tamil Nadu Legislative Assembly for ten years. During this period, he served
                                 as a Minister for two years.<br /> <br />
 
-                                <b>Dr. G.V</b> − The Educator <br />
-                                Dr. G. Viswanathan founded Vellore Engineering College in 1984 at Vellore. He envisioned
+                                <b>Dr. G. Viswanathan</b> − The Educator <br />
+                                Dr. G.  Viswanathan founded Vellore Engineering College in 1984 at Vellore. He envisioned
                                 that this Institution would offer World-Class Education to students who would in turn create
                                 an indelible impact on the society. The engineering college that started with an intake of
                                 180 students in 1984 has evolved as a university with four campuses. Over 25,000 students
@@ -218,7 +218,7 @@ export default function Committee() {
                                 accreditation from the United Kingdom and USA, and the highest accreditation grade from the
                                 Government of India reflect the University’s penchant for excellence on all fronts.
                                 <br /> <br />
-                                <b>Dr. G.V</b> − The Institution <br />
+                                <b>Dr. G. Viswanathan</b> − The Institution <br />
                                 Due to his passion for societal development and compassion for the underprivileged, Dr. GV
                                 has launched several schemes for uplifting the women and unemployed youth in the region to
                                 help them become self-reliant. He offers scholarships to students from disadvantaged
@@ -226,7 +226,7 @@ export default function Committee() {
                                 Universal Higher Education Trust to create opportunities for higher education to every
                                 deserving student in the region. He has adopted several villages with the motto of improving
                                 the quality of lives of the rural people. His vision of transforming Vellore into a greener
-                                and cooler town by planting one million saplings has begun to yield fruit. Dr.GV’s
+                                and cooler town by planting one million saplings has begun to yield fruit. Dr. GV’s
                                 farsightedness extends beyond horizons.
                             </h5>
                         </MyModal>
@@ -270,16 +270,14 @@ export default function Committee() {
                             title="Dr. IZURU UMEHARA"
                             keyboard={true}
                         >
-                            <h5 ><b>Prof. Umehara Izuru</b><br />
+                            <h5 ><b>Dr. Izuru Umehara</b><br />
                                 President, Yokohama National University
                                 <br /> <br />
-                                <b> Academic Background</b>
-                                March 1992 Doctor of Engineering, University of Tsukuba
+                                <b> Academic Background</b> March 1992 Doctor of Engineering, University of Tsukuba
                                 March 1989 Master of Science, University of Toyama
                                 March 1987 Graduate from School of Science, University of Toyama
                                 <br /><br />
-                                <b>Education & Work Experience</b>
-                                April 2021 President, Yokohama National University
+                                <b>Education & Work Experience</b> April 2021 President, Yokohama National University
                                 April 2020 Executive Director for Research, Finance, Information and
                                 Evaluation (Vice-President), Yokohama National University
                                 April 2019 Executive Director for Research and Evaluation (Vice-President),
@@ -289,12 +287,10 @@ export default function Committee() {
                                 April 1994 Research Associate, College of Engineering, Yokohama National University
                                 April 1992 Academic Affairs Staff, College of Engineering, Yokohama National University
                                 <br /><br />
-                                <b>Research Fields</b>
-                                Solid State Physics, Single Crystal, Low Temperature, High Pressure, Specific Heat, Strongly Correlated
+                                <b>Research Fields</b> Solid State Physics, Single Crystal, Low Temperature, High Pressure, Specific Heat, Strongly Correlated
                                 Electron System
                                 <br /><br />
-                                <b>Mission Statement</b>
-                                UMEHARA Izuru was elected 16th president of Yokohama National University (YNU) in April 2021. At the
+                                <b>Mission Statement</b> UMEHARA Izuru was elected 16th president of Yokohama National University (YNU) in April 2021. At the
                                 beginning of his presidential position, he made clear about the four strategies and roles that YNU should
                                 take to become a world-class research oriented university: (1) Research Strategy (fostering practical
                                 academic research which aims to become a world-class research university); (2) Educational Strategy
@@ -316,7 +312,7 @@ export default function Committee() {
                             </div>
 
                             <div className="cprof-details">
-                                <h1>Dr. G. VISWANATHAN</h1>
+                                <h1>Dr. G.  VISWANATHAN</h1>
                                 <h2>Founder & Chancellor</h2>
                                 <h3>Vellore Institute of Technology,<br />INDIA</h3>
                             </div>
@@ -325,7 +321,7 @@ export default function Committee() {
 
                         <div className="cprof-description">
                             <p>
-                                Dr. G. Viswanathan founded Vellore Engineering College in 1984 at Vellore. He envisioned that
+                                Dr. G.  Viswanathan founded Vellore Engineering College in 1984 at Vellore. He envisioned that
                                 this Institution would offer World-Class Education to students who would in turn create an
                                 indelible impact on the society. The engineering college that started with an intake of 180
                                 students in 1984 has evolved as a university with four...
@@ -502,7 +498,7 @@ export default function Committee() {
                             title="Dr. G V SELVAM"
                             keyboard={true}
                         >
-                            <h5><b>Mr. G V Selvam </b> Vice - President <br /><br />
+                            <h5><b>Dr. G V Selvam </b> Vice - President <br /><br />
                                 Dr. G V Selvam has been associated with the institution since 1999, when he first assumed
                                 office as Vice-Chairman of Vellore Engineering College. Since then, he has been working
                                 relentlessly towards the progress of the institution. He spearheaded the elevation of
@@ -517,7 +513,7 @@ export default function Committee() {
                                 Green LEED certification. As the Vice President, he continues to contribute diligently to
                                 its growth. His painstaking efforts in implementing several innovative measures have enabled
                                 VIT to emerge as an institution of international eminence. A self-motivated and industrious
-                                person, and a farsighted educationalist, Mr. G.V. Selvam possesses an innate ability to spot
+                                person, and a farsighted educationalist, Mr. G. V. Selvam possesses an innate ability to spot
                                 and nurture talent–be it with the faculty, staff or students. He offers flexible and
                                 pragmatic academic solutions not only for toppers but also for slow learners. Mr. Selvam was
                                 instrumental in introducing new and need-based programmes of study such as Law,
@@ -686,7 +682,7 @@ export default function Committee() {
                                 (formerly Vellore Engineering College) almost since the inception of the institution in the
                                 year 1984. Prior to becoming the Registrar, she has served the institution in various
                                 capacities, including as a Head of the Department and the Dean of School of Electrical
-                                Engineering. She has a teaching and research experience of a little more than thirty-six
+                                EngineerinG.  She has a teaching and research experience of a little more than thirty-six
                                 years. An active researcher with a Scopus H-index of twenty-one and more than two thousand
                                 Scopus citations, she has a few highly cited publications to her credit. Her interests are
                                 teaching, research and administration.
@@ -918,7 +914,7 @@ export default function Committee() {
                                     research interests focus on the closed-loop fertility cycle for sustainability in sanitation
                                     and agricultural production for the anthropogenic solution. In 2012, he received the Best
                                     Mineral Engineer Award for the development of an outstanding strategy and concept for
-                                    sustainable agricultural productivity using low-grade rock phosphate tailing. He was also
+                                    sustainable agricultural productivity using low-grade rock phosphate tailinG.  He was also
                                     awarded the Best Platform Presenter by International Water Association (Poland) in 2017,
                                     Outstanding Young Chemical Engineer from the IIChE, and the prestigious Senior Research
                                     Fellowship award from the Defense R&D Organization, Government of India.
@@ -1100,7 +1096,7 @@ export default function Committee() {
 
                         <div className="cprof-description">
                             <p>
-                                Dr.Thirumalini Selvaraj, Heritage Research lab, completed her Doctoral research in Heritage Lime mortars
+                                Dr. Thirumalini Selvaraj, Heritage Research lab, completed her Doctoral research in Heritage Lime mortars
                                 characterisation and Simulation and has 15 years of Research experience with  61 publication in the field of
                                 heritage materials and structures. Her primary areas of research include developing scientific methods
                                 for...
@@ -1117,7 +1113,7 @@ export default function Committee() {
                             title="Dr. THIRUMALINI S."
                             keyboard={true}
                         >
-                            <h5>Dr.Thirumalini Selvaraj, Heritage Research lab, completed her
+                            <h5>Dr. Thirumalini Selvaraj, Heritage Research lab, completed her
                                 Doctoral research in Heritage Lime mortars characterisation and Simulation and has 15 years of Research
                                 experience with  61 publication in the field of heritage materials and structures. Her primary areas of
                                 research include developing scientific methods for restoration of heritage structures, chemistry of
@@ -1272,7 +1268,7 @@ export default function Committee() {
 
                         <div className="cprof-description">
                             <p>
-                                I, M Aslam Abdullah working as Associate Professor at Vellore Institute of Technology, Vellore;
+                                M Aslam Abdullah working as Associate Professor at Vellore Institute of Technology, Vellore;
                                 Qualified Doctorate in Petrochemical Technology from Anna University, Chennai, M. Tech. in Gas
                                 Engineering from University of Petroleum and Energy Studies, B.Tech in Petrochemical Technology
                                 from Bharathidasan University....
@@ -1289,7 +1285,7 @@ export default function Committee() {
                             title="Dr. ASLAM ABDULLAH M"
                             keyboard={true}
                         >
-                            <h5>I, M Aslam Abdullah working as Associate
+                            <h5>M Aslam Abdullah working as Associate
                                 Professor at Vellore Institute of Technology, Vellore; Qualified Doctorate in Petrochemical
                                 Technology from Anna University, Chennai, M. Tech. in Gas Engineering from University of
                                 Petroleum and Energy Studies, B.Tech in Petrochemical Technology from Bharathidasan

@@ -51,8 +51,7 @@ export default function About() {
                         all' by 2030, we at Vellore Institute of Technology-Vellore, INDIA, propose
                         to host TECHNOSCAPE<sup>23</sup>, an <b>"International Conference on
                             Sustainable Technologies for Water and Wastewater Treatment"</b>,
-                        from 14<sup>th</sup> to 16<sup>th</sup> December 2023. TECHNOSCAPE<sup>23</sup>
-                        aims to provide a platform for water enthusiasts and environmental experts to
+                        from 14<sup>th</sup> to 16<sup>th</sup> December 2023. TECHNOSCAPE<sup>23</sup> aims to provide a platform for water enthusiasts and environmental experts to
                         share their rich scientific experiences.
                     </p>
                 </div>

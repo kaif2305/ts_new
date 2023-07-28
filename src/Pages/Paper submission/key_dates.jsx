@@ -26,7 +26,7 @@ export default function Key_dates() {
                 </Row>
                 <Row style={{ marginBottom: '4%' }}>
                     <Col>
-                        <h4>Abstract Submission
+                        <h4>Abstract Submissions
                             closes</h4>
                     </Col>
                     <Col>
@@ -49,17 +49,17 @@ export default function Key_dates() {
                 <Row style={{ marginBottom: '4%' }}>
                     <Col>
                         <h4>Early Bird Registration
-                            Closes</h4>
+                            Opens</h4>
                     </Col>
                     <Col>
                         <div className="left-sub-container">
-                            <h5>15th JUL, 2023</h5>
+                            <h5>20th JUL, 2023</h5>
                         </div>
                     </Col>
                 </Row>
                 <Row style={{ marginBottom: '4%' }}>
                     <Col>
-                        <h4>Full Paper Submission
+                        <h4>Early Bird Registration
                             Closes</h4>
                     </Col>
                     <Col>
@@ -70,7 +70,7 @@ export default function Key_dates() {
                 </Row>
                 <Row style={{ marginBottom: '4%' }}>
                     <Col>
-                        <h4>Registration Closes</h4>
+                        <h4>Full Paper Submission Closes</h4>
                     </Col>
                     <Col>
                         <div className="left-sub-container">
@@ -80,7 +80,7 @@ export default function Key_dates() {
                 </Row>
                 <Row style={{ marginBottom: '4%' }}>
                     <Col>
-                        <h4>Call for Papers Opens</h4>
+                        <h4>Registration Closes</h4>
                     </Col>
                     <Col>
                         <div className="left-sub-container">
@@ -108,7 +108,7 @@ export default function Key_dates() {
                     <div className="mobile-inner-box">
                         <Stack>
 
-                            <h4>Abstract Submission
+                            <h4>Abstract Submissions
                                 closes</h4>
 
                             <div className="left-sub-container">
@@ -134,10 +134,10 @@ export default function Key_dates() {
                         <Stack>
 
                             <h4>Early Bird Registration
-                                Closes</h4>
+                                Opens</h4>
 
                             <div className="left-sub-container">
-                                <h5>15th JUL, 2023</h5>
+                                <h5>20th JUL, 2023</h5>
                             </div>
 
                         </Stack>
@@ -146,7 +146,7 @@ export default function Key_dates() {
                     <div className="mobile-inner-box">
                         <Stack>
 
-                            <h4>Full Paper Submission
+                            <h4>Early Bird Registration
                                 Closes</h4>
 
                             <div className="left-sub-container">
@@ -159,7 +159,8 @@ export default function Key_dates() {
                     <div className="mobile-inner-box">
                         <Stack gap={4}>
 
-                            <h4>Registration Closes</h4>
+                            <h4>Full Paper Submission
+                                Closes</h4>
 
                             <div className="left-sub-container">
                                 <h5>31th OCT, 2023</h5>
@@ -171,7 +172,7 @@ export default function Key_dates() {
                     <div className="mobile-inner-box">
                         <Stack gap={4}>
 
-                            <h4>Call for Papers Opens</h4>
+                            <h4>Registration Closes</h4>
 
                             <div className="left-sub-container">
                                 <h5>30th NOV, 2023</h5>

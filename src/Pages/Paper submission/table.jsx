@@ -72,7 +72,7 @@ export default function TablePaperSubmission() {
 
                         </tr>
                         <tr>
-                            <td>Researcg Scholars / <br />Students</td>
+                            <td>Research Scholars / <br />Students</td>
                             <td><div className="td-container">
                                 <h5>4000</h5>
                             </div></td>
@@ -206,7 +206,7 @@ export default function TablePaperSubmission() {
 
                         </tr>
                         <tr>
-                            <td>Researcg Scholars / <br />Students</td>
+                            <td>Research Scholars / <br />Students</td>
                             <td><div className="td-container">
                                 <h5>4000</h5>
                             </div></td>
@@ -287,7 +287,7 @@ export default function TablePaperSubmission() {
 
                         </tr>
                         <tr>
-                            <td>Researcg Scholars / <br />Students</td>
+                            <td>Research Scholars / <br />Students</td>
                             <td><div className="td-container">
                                 <h5>200</h5>
                             </div></td>
@@ -369,7 +369,7 @@ export default function TablePaperSubmission() {
 
                         </tr>
                         <tr>
-                            <td>Researcg Scholars / <br />Students</td>
+                            <td>Research Scholars / <br />Students</td>
                             <td><div className="td-container">
                                 <h5>250</h5>
                             </div></td>
