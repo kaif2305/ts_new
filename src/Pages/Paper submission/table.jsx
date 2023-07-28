@@ -13,13 +13,13 @@ export default function TablePaperSubmission() {
                         <tr>
                             <th style={{ borderRight: '1px solid #dddddd' }}></th>
                             <th colSpan={3} style={{ borderBottom: '1px solid #dddddd', borderRight: '1px solid #dddddd' }}>
-                                INDIA
+                                INDIA (INR)
                             </th>
                             <th colSpan={3} style={{ borderBottom: '1px solid #dddddd', borderRight: '1px solid #dddddd' }}>
-                                LOW INCOME COUNTRY
+                                LOW INCOME COUNTRY (USD)
                             </th>
                             <th colSpan={3} style={{ borderBottom: '1px solid #dddddd' }}>
-                                HIGH INCOME COUNTRY
+                                HIGH INCOME COUNTRY(USD)
                             </th>
                         </tr>
                     </thead>
@@ -175,7 +175,7 @@ export default function TablePaperSubmission() {
                         <tr>
                             <th style={{ borderRight: '1px solid #dddddd' }}></th>
                             <th colSpan={3} style={{ borderBottom: '1px solid #dddddd' }}>
-                                INDIA
+                                INDIA (INR)
                             </th>
 
                         </tr>
@@ -256,7 +256,7 @@ export default function TablePaperSubmission() {
                         <tr>
                             <th style={{ borderRight: '1px solid #dddddd' }}></th>
                             <th colSpan={3} style={{ borderBottom: '1px solid #dddddd' }}>
-                                LOW INCOME COUNTRY
+                                LOW INCOME COUNTRY (USD)
                             </th>
 
                         </tr>
@@ -338,7 +338,7 @@ export default function TablePaperSubmission() {
                         <tr>
                             <th style={{ borderRight: '1px solid #dddddd' }}></th>
                             <th colSpan={3} style={{ borderBottom: '1px solid #dddddd' }}>
-                                HIGH INCOME COUNTRY
+                                HIGH INCOME COUNTRY (USD)
                             </th>
 
                         </tr>
