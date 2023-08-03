@@ -14,7 +14,7 @@ export default function Home() {
             <ColabClgHome />
             <Carousel />
             <div className="marq">
-                <marquee behavior="slider" width="100%" direction="left"> Thank you for the overwhelming response. &emsp; &emsp; &emsp; Abstract submissions stands closed. &emsp; &emsp; &emsp; Abstract decision communication is now under way.</marquee>
+                <marquee behavior="slider" width="100%" direction="left"> Early Bird Registeration is now live.</marquee>
             </div>
             <Countdown />
 
