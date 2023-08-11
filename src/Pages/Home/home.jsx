@@ -14,7 +14,7 @@ export default function Home() {
             <ColabClgHome />
             <Carousel />
             <div className="marq">
-                <marquee behavior="slider" width="100%" direction="left"> Early Bird Registeration is now live.</marquee>
+                <marquee behavior="slider" width="100%" direction="left"> Early Bird Registration is now live.</marquee>
             </div>
             <Countdown />
 

@@ -11,7 +11,7 @@ import { Button, Modal } from 'react-bootstrap';
 
 const MyModal = ({ show, onHide, title, children }) => {
     return (
-        <Modal show={show} onHide={onHide}>
+        <Modal show={show} onHide={onHide} size="lg">
             <Modal.Header closeButton>
                 <Modal.Title>{title}</Modal.Title>
             </Modal.Header>
@@ -22,6 +22,7 @@ const MyModal = ({ show, onHide, title, children }) => {
                 </Button>
                 {/* Add additional buttons or actions */}
             </Modal.Footer>
+            centered
         </Modal>
     );
 };
@@ -32,6 +33,7 @@ export default function Committee() {
 
     const [CpModal1, setCpModal1] = useState(false);
     const [CpModal2, setCpModal2] = useState(false);
+    const [CpModal3, setCpModal3] = useState(false);
 
     const [PModal1, setPModal1] = useState(false);
     const [PModal2, setPModal2] = useState(false);
@@ -61,6 +63,10 @@ export default function Committee() {
 
     const cp2 = () => {
         setCpModal2(!CpModal2);
+    };
+
+    const cp3 = () => {
+        setCpModal3(!CpModal3);
     };
 
     // Patrons
@@ -304,35 +310,84 @@ export default function Committee() {
 
                     </div>
 
-                    {/* <div className="cprof-container1">
+
+                    <div className="cprof-container1">
                         <div className="cprof-basic-details">
 
                             <div className="cprof-img-container">
-                                <img src="images/prof/Akihiko Terada.jpeg" alt="cprof-outer" />
+                                <img src="images/gdansk uni prof.jpg" alt="cprof-outer" />
                             </div>
 
                             <div className="cprof-details">
-                                <h1>Dr. G.  VISWANATHAN</h1>
-                                <h2>Founder & Chancellor</h2>
-                                <h3>Vellore Institute of Technology,<br />INDIA</h3>
+                                <h1>Prof. Krzysztof Wilde</h1>
+                                <h2>Rector</h2>
+                                <h3>Gdańsk University of Technology,<br />POLAND</h3>
                             </div>
 
                         </div>
 
                         <div className="cprof-description">
                             <p>
-                                Dr. G.  Viswanathan founded Vellore Engineering College in 1984 at Vellore. He envisioned that
-                                this Institution would offer World-Class Education to students who would in turn create an
-                                indelible impact on the society. The engineering college that started with an intake of 180
-                                students in 1984 has evolved as a university with four...
+                                Prof. Krzysztof Wilde has held the position of the 41st rector of Gdańsk University of Technology
+                                – one of the most highly acclaimed and best ranked technical universities in Poland – since 2019.
+                                He is a respected scientist and manager, an international expert in the field of bridge structures,
+                                mechanics and diagnostics of building structures, as well as a teacher and academic leader popular
+                                among students....
                             </p>
 
-                            <button type="button" class="btn" data-toggle="modal" data-target="#myModal1">
+                            <button type="button" class="btn" onClick={cp3} data-toggle="modal" data-target="#myModal1">
                                 Know More
                             </button>
                         </div>
 
-                    </div> */}
+                        <MyModal
+                            show={CpModal3}
+                            onHide={cp3}
+                            title="Prof. Krzysztof Wilde"
+                            keyboard={true}
+                        >
+                            <h5 ><b>Prof. Krzysztof Wilde</b><br />
+                                The Rector of Gdańsk University of Technology
+                                <br /> <br />
+                                Prof. Krzysztof Wilde has held the position of the 41st rector of Gdańsk University of Technology –
+                                one of the most highly acclaimed and best ranked technical universities in Poland – since 2019.
+                                He is a respected scientist and manager, an international expert in the field of bridge structures,
+                                mechanics and diagnostics of building structures, as well as a teacher and academic leader popular
+                                among students.
+                                <br /><br />
+                                <b>Education and achievements</b> Before becoming the rector of Gdańsk Tech, he was the dean of the Faculty
+                                of Civil and Environmental Engineering at gdańsk Tech for three terms of office. He has gained international
+                                experience, ineter alia, at the University of Tokyo in Japan, where he earned a PhD title and then an associate
+                                professor of the university. He is the author and co-author of over 200 publications and four patents, and in
+                                2016 he became a member of the Polish Academy of Sciences. Prof. Wilde is also the vice-chairman of the Conference
+                                of Rectors of Polish Technical Universities (Polish acronym: KRPUT, since 2020), the chairman of the Council of Rectors
+                                of the Pomeranian Voivodeship (since 2020), and in 2023 he was appointed co-chairman of the Board of Directors of the
+                                ENHANCE Alliance, which consists of 10 leading European technical universities. He is also one of the advisers to the
+                                Minister of Science and Higher Education within the scope of infrastructural investments in Polish science.
+                                <br/><br />
+                                Prof. Krzysztof Wilde was one of the initiators of the Fahrenheit Union of Universities in Gdańsk (2019), which includes
+                                 the Medical University of Gdańsk, Gdańsk University of Technology and the University of Gdańsk. Integration of the region's
+                                  three best universities, which are to become a federation in the future, is to strengthen the position of Gdańsk as a strong
+                                   academic center in this part of Europe. The Rector was the first chairman of Fahrenheit Union and established the main
+                                    directions of further development of this initiative.
+                                <br/><br />
+                                In his work, he focuses on integrating the world of science with business sector, as well as creating the best conditions for development
+                                for students and young researchers. In the economic environment, he is perceived as a creative scientist and an effective manager.
+                                <br /><br />
+                                <b>Gdańsk University of Technology</b><br/><br /> Gdańsk University of Technology is one of the best universities in Poland,
+                                 for several years it has maintained the third place in the most important classification of technical universities in the
+                                  country, developed by "Perspektywy" educational foundation, and the sixth place in the classification of universities,
+                                   regardless of the profile of activity. 
+<br /><br />
+In 2019, in the ministerial program "Excellence Initiative - Research University", Gdańsk Tech was ranked second among
+ the top 10 academic centers in Poland - the highest among 
+                                
+
+                            </h5>
+                        </MyModal>
+
+                    </div>
+
 
 
                 </div>

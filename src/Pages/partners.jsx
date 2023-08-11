@@ -20,7 +20,7 @@ export default function Partners() {
                     <div className="img-container1-partner">
                         <img src="images/Thünen-removebg-preview.png" alt="our_team" />
                     </div>
-                    <h3>Thünen-Institute of Organic Farming, GERMANY</h3>
+                    <h3>Johann Heinrich von Thünen Institute GERMANY</h3>
                 </div>
                 <div className="team_member">
                     <div className="img-container1-partner">
