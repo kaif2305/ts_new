@@ -22,13 +22,13 @@ export default function Partners() {
                     </div>
                     <h3>Johann Heinrich von Thünen Institute GERMANY</h3>
                 </div>
-                <div className="team_member">
+                {/* <div className="team_member">
                     <div className="img-container1-partner">
                         <img src="images/Universiti_-removebg-preview.png" alt="our_team" />
                     </div>
                     <h3>Universiti Malaya, MALAYSIA</h3>
 
-                </div>
+                </div> */}
                 <div className="team_member">
                     <div className="img-container1-partner">
                         <img src="images/Tunku Abdul Rahman.jpeg" alt="our_team" />
