@@ -413,7 +413,7 @@ export default function InternatinoalAdvisory() {
                             <div className="inter-card">
                                 <img src="images\prof\GP Rangaiah.png" />
                                 <div>
-                                    <h4>Prof. G.P. Rangaiah</h4>
+                                    <h4>Prof. GP Rangaiah</h4>
                                     <h3>SINGAPORE</h3>
                                     <h5>National University of Singapore</h5>
 
