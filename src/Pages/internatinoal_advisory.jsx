@@ -206,6 +206,19 @@ export default function InternatinoalAdvisory() {
 
                         <div className="outer-card">
                             <div className="inter-card">
+                                <img src="images\prof\Jacek Mąkinia.jpeg" />
+                                <div>
+                                    <h4>Prof. Jacek Mąkinia</h4>
+                                    <h3>POLAND</h3>
+                                    <h5>Gdańsk University of Technology</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="outer-card">
+                            <div className="inter-card">
                                 <img src="images\prof\Jennifer P. Tamayo.jpeg" />
                                 <div>
                                     <h4>Dr. Jennifer P. Tamayo</h4>
@@ -398,11 +411,59 @@ export default function InternatinoalAdvisory() {
 
                         <div className="outer-card">
                             <div className="inter-card">
+                                <img src="images\prof\GP Rangaiah.png" />
+                                <div>
+                                    <h4>Prof. G.P. Rangaiah</h4>
+                                    <h3>SINGAPORE</h3>
+                                    <h5>National University of Singapore</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="outer-card">
+                            <div className="inter-card">
+                                <img src="images\prof\C. Ravinder Singh.png" />
+                                <div>
+                                    <h4>Mr. Ravinder Singh C</h4>
+                                    <h3>DUBAI</h3>
+                                    <h5>Aakash Plantations L.L.C</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="outer-card">
+                            <div className="inter-card">
                                 <img src="images\prof\Reddy Prasad D.M..jpeg" />
                                 <div>
                                     <h4>Prof. Reddy Prasad D.M.</h4>
                                     <h3>BRUNEI</h3>
                                     <h5>Universiti Teknologi Brunei</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="outer-card">
+                            <div className="inter-card">
+                                <img src="images\prof\I. Regupathi.png" />
+                                <div>
+                                    <h4>Prof. Regupathi I</h4>
+                                    <h3>INDIA</h3>
+                                    <h5>National Institute of Technology</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="outer-card">
+                            <div className="inter-card">
+                                <img src="images\prof\K. Sadanand.png" />
+                                <div>
+                                    <h4>Mr. Sadanand K</h4>
+                                    <h3>INDIA</h3>
+                                    <h5>Anna University</h5>
 
                                 </div>
                             </div>
@@ -480,6 +541,19 @@ export default function InternatinoalAdvisory() {
                                 </div>
                             </div>
                         </div>
+
+                        <div className="outer-card">
+                            <div className="inter-card">
+                                <img src="images\prof\D. Sivakumar.jpg" />
+                                <div>
+                                    <h4>Dr. Sivakumar D</h4>
+                                    <h3>INDIA</h3>
+                                    <h5>Ranipet Tannery Effluent Treatment Company</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
 
                         <div className="outer-card">
                             <div className="inter-card">
