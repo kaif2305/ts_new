@@ -47,19 +47,24 @@ export default function Toggle() {
           </a>
           <a style={{ animationDelay: "0.6s" }} onClick={scrollToTop}>
 
+<Link to="/speakers">Keynote Speakers</Link>
+</a>
+
+          <a style={{ animationDelay: "0.7s" }} onClick={scrollToTop}>
+
             <Link to="/committee">Committee
             </Link>
           </a>
-          <a style={{ animationDelay: "0.7s" }} onClick={scrollToTop}>
+          <a style={{ animationDelay: "0.8s" }} onClick={scrollToTop}>
 
             <Link to="/international advisory">International Advisory Committee </Link>
           </a>
 
-          <a style={{ animationDelay: "0.8s" }} onClick={scrollToTop}>
+          <a style={{ animationDelay: "0.9s" }} onClick={scrollToTop}>
 
             <Link to="/partners">Partners </Link>
           </a>
-          <a style={{ animationDelay: "0.9s" }} onClick={scrollToFooter}>
+          <a style={{ animationDelay: "1s" }} onClick={scrollToFooter}>
 
             Contact Us
           </a>
