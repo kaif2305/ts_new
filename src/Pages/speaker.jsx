@@ -286,7 +286,7 @@ export default function Speaker() {
                 Chemical and Biomolecular Engineering, National University of
                 Singapore (NUS). Prof. Rangaiah also serves as an adjunct
                 professor in the School of Chemical Engineering at VIT Vellore.
-                With a distinguished....
+                With....
               </p>
 
               <button
