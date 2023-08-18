@@ -146,7 +146,7 @@
     }
 
     .speaker-outer .speaker-container .speaker-details h3 {
-        font-size: calc(0.5*(1.2vh + 1.2vw));
+        font-size: calc(0.55*(1.2vh + 1.2vw));
     }
 
 }
@@ -200,7 +200,7 @@
     }
 
     .speaker-outer .speaker-container .speaker-details h3 {
-        font-size: calc(0.5*(1.5vh + 1.5vw));
+        font-size: calc(0.55*(1.5vh + 1.5vw));
     }
 
     .speaker-outer .speaker-container .speaker-description button {
@@ -238,7 +238,7 @@
     }
 
     .speaker-outer .speaker-container .speaker-details h3 {
-        font-size: calc(0.5*(1.5vh + 1.5vw));
+        font-size: calc(0.55*(1.5vh + 1.5vw));
     }
 
     .speaker-outer .speaker-container .speaker-description button {
@@ -276,7 +276,7 @@
     }
 
     .speaker-outer .speaker-container .speaker-details h3 {
-        font-size: calc(0.5*(1.5vh + 1.5vw));
+        font-size: calc(0.55*(1.5vh + 1.5vw));
     }
 
     .speaker-outer .speaker-container .speaker-description button {
@@ -316,7 +316,7 @@
     }
 
     .speaker-outer .speaker-container .speaker-details h3 {
-        font-size: calc(0.5*(1.6vh + 1.6vw));
+        font-size: calc(0.55*(1.6vh + 1.6vw));
     }
 
     .speaker-outer .speaker-container .speaker-description button {
@@ -365,7 +365,7 @@
     }
 
     .speaker-outer .speaker-container .speaker-details h3 {
-        font-size: calc(0.5*(1.8vh + 1.8vw));
+        font-size: calc(0.55*(1.8vh + 1.8vw));
     }
 
     .speaker-outer .speaker-container .speaker-description button {

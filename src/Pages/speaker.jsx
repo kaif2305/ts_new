@@ -205,7 +205,7 @@ export default function Speaker() {
               </div>
 
               <div className="speaker-details">
-                <h1>Prof. Dr. MOHAMMED J.K. BASHIR</h1>
+                <h1>Prof. MOHAMMED J.K. BASHIR</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
                   Universiti Tunku Abdul Rahman,
@@ -217,7 +217,7 @@ export default function Speaker() {
 
             <div className="speaker-description">
               <p>
-                Prof. Dr. Mohammed J.K. Bashir is currently holding the esteemed
+                Prof. Mohammed J.K. Bashir is currently holding the esteemed
                 position of Professor and serving as the Head of the
                 Environmental Engineering Department at Universiti Tunku Abdul
                 Rahman. He is renowned for his expertise in Environmental
@@ -238,10 +238,10 @@ export default function Speaker() {
             <MyModal
               show={speaker2}
               onHide={sp2}
-              title="Prof. Dr. Mohammed J.K. Bashir"
+              title="Prof. Mohammed J.K. Bashir"
               keyboard={true}>
               <h5>
-                Prof. Dr. Mohammed J.K. Bashir is currently holding the esteemed
+                Prof. Mohammed J.K. Bashir is currently holding the esteemed
                 position of Professor and serving as the Head of the
                 Environmental Engineering Department at Universiti Tunku Abdul
                 Rahman. He is renowned for his expertise in Environmental
@@ -338,7 +338,7 @@ export default function Speaker() {
               </div>
 
               <div className="speaker-details">
-                <h1>Prof. GEROLD RAHMANN</h1>
+                <h1>Prof. GEROLD REHMANN</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
                   Thünen-Institute of Organic Farming,
@@ -350,7 +350,7 @@ export default function Speaker() {
 
             <div className="speaker-description">
               <p>
-                Prof. Gerold Rahmann is a highly accomplished academician from
+                Prof. Gerold Rehmann is a highly accomplished academician from
                 Germany, known for his influential work in the field of Organic
                 Farming. He is currently serving as the Director and Professor
                 at the Thünen-Institute of Organic Farming, part of the German
@@ -371,16 +371,16 @@ export default function Speaker() {
             <MyModal
               show={speaker4}
               onHide={sp4}
-              title="Prof. Gerold Rahmann"
+              title="Prof. Gerold Rehmann"
               keyboard={true}>
               <h5>
-                Prof. Gerold Rahmann is a highly accomplished academician from
+                Prof. Gerold Rehmann is a highly accomplished academician from
                 Germany, known for his influential work in the field of Organic
                 Farming. He is currently serving as the Director and Professor
                 at the Thünen-Institute of Organic Farming, part of the German
                 Federal Research Institute of Rural Areas, Forests, and
                 Fisheries. With over ten years of international working
-                experience, Prof. Rahmann's expertise extends across Europe and
+                experience, Prof. Rehmann's expertise extends across Europe and
                 several other countries. He was also the chair of a
                 cross-countries working group to increase agricultural
                 production through innovation. Additionally, he initiated and
@@ -393,7 +393,7 @@ export default function Speaker() {
                 "Green Innovation Centre - Ethiopia" and designing the German
                 support program for Ethiopia. His extensive research output is
                 impressive, with over 380 papers and 18 books published till
-                2020. As an academic mentor, Prof. Rahmann has supervised more
+                2020. As an academic mentor, Prof. Rehmann has supervised more
                 than 100 BSc, MSc, and Ph.D. students till 2020, nurturing the
                 next generation of researchers and scientists in the field of
                 Organic Farming.
@@ -482,7 +482,7 @@ export default function Speaker() {
               </div>
 
               <div className="speaker-details">
-                <h1>Dr. NANDITA DAS GUPTA</h1>
+                <h1>Dr. NANDITA DASGUPTA</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
                   CSIR-Indian Institute of Toxicology Research,
@@ -678,7 +678,7 @@ export default function Speaker() {
               </div>
 
               <div className="speaker-details">
-                <h1>Dr. KAZUHO NAKUMURA</h1>
+                <h1>Dr. KAZUHO NAKAMURA</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
                   Yokohama National Universit,
@@ -690,7 +690,7 @@ export default function Speaker() {
 
             <div className="speaker-description">
               <p>
-                Dr. Kazuho Nakumura is an accomplished Associate Professor in
+                Dr. Kazuho Nakamura is an accomplished Associate Professor in
                 the Faculty of Engineering, specializing in the Division of
                 Materials Science and Chemical Engineering at Yokohama National
                 University. His research interests encompass various areas,
@@ -714,7 +714,7 @@ export default function Speaker() {
               title="Dr. Kazuho Nakamura"
               keyboard={true}>
               <h5>
-                Dr. Kazuho Nakumura is an accomplished Associate Professor in
+                Dr. Kazuho Nakamura is an accomplished Associate Professor in
                 the Faculty of Engineering, specializing in the Division of
                 Materials Science and Chemical Engineering at Yokohama National
                 University. His research interests encompass various areas,
@@ -741,7 +741,7 @@ export default function Speaker() {
               </div>
 
               <div className="speaker-details">
-                <h1>TARO ARAKAWA</h1>
+                <h1>Prof. TARO ARAKAWA</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
                   Yokohama National Universit,
@@ -753,7 +753,7 @@ export default function Speaker() {
 
             <div className="speaker-description">
               <p>
-                Taro Arakawa is an Associate Professor at the Faculty of
+                Prof. Taro Arakawa is an Associate Professor at the Faculty of
                 Engineering, Division of Intelligent Systems Engineering,
                 Yokohama National University. His research domains include a
                 wide range of cutting-edge topics, like optical waveguides,
@@ -774,10 +774,10 @@ export default function Speaker() {
             <MyModal
               show={speaker10}
               onHide={sp10}
-              title="Taro Arakawa"
+              title="Prof. Taro Arakawa"
               keyboard={true}>
               <h5>
-                Taro Arakawa is an Associate Professor at the Faculty of
+                Prof. Taro Arakawa is an Associate Professor at the Faculty of
                 Engineering, Division of Intelligent Systems Engineering,
                 Yokohama National University. His research domains include a
                 wide range of cutting-edge topics, like optical waveguides,
@@ -951,7 +951,7 @@ export default function Speaker() {
               </div>
 
               <div className="speaker-details">
-                <h1>JACEK CZERWINSKI</h1>
+                <h1>Prof. JACEK CZERWINSKI</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
                   Lublin University of Technology,
@@ -984,7 +984,7 @@ export default function Speaker() {
             <MyModal
               show={speaker13}
               onHide={sp13}
-              title="Jacek Czerwinski"
+              title="Prof. Jacek Czerwinski"
               keyboard={true}>
               <h5>
                 Jacek Czerwinski is a distinguished academic and researcher
