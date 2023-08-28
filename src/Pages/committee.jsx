@@ -621,7 +621,7 @@ export default function Committee() {
               </div>
 
               <div className="cprof-details">
-                <h1>Dr. G V SELVAM</h1>
+                <h1>Mr. G V SELVAM</h1>
                 <h2>Vice President</h2>
                 <h3>
                   Vellore Institute of Technology,
@@ -633,7 +633,7 @@ export default function Committee() {
 
             <div className="cprof-description">
               <p>
-                Dr. G V Selvam has been associated with the institution since
+                Mr. G V Selvam has been associated with the institution since
                 1999, when he first assumed office as Vice-Chairman of Vellore
                 Engineering College. He spearheaded the elevation of Vellore
                 Engineering College to VIT University in 2001, and became its
@@ -654,12 +654,12 @@ export default function Committee() {
             <MyModal
               show={PModal3}
               onHide={p3}
-              title="Dr. G V SELVAM"
+              title="Mr. G V SELVAM"
               keyboard={true}>
               <h5>
-                <b>Dr. G V Selvam </b> Vice - President <br />
+                <b>Mr. G V Selvam </b> Vice - President <br />
                 <br />
-                Dr. G V Selvam has been associated with the institution since
+                Mr. G V Selvam has been associated with the institution since
                 1999, when he first assumed office as Vice-Chairman of Vellore
                 Engineering College. Since then, he has been working
                 relentlessly towards the progress of the institution. He
@@ -844,7 +844,7 @@ export default function Committee() {
                 <img src="images/jayabarathi-t.png" alt="cprof-outer" />
               </div>
 
-              <h2>Register</h2>
+              <h2>Registrar</h2>
               <h3>
                 Vellore Institute of Technology,
                 <br />
