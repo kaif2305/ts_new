@@ -148,7 +148,7 @@ export default function Committee() {
               </div>
 
               <div className="cprof-details">
-                <h1>Dr. G. VISWANATHAN</h1>
+                <h1>Mr. G. VISWANATHAN</h1>
                 <h2>Founder & Chancellor</h2>
                 <h3>
                   Vellore Institute of Technology,
@@ -160,7 +160,7 @@ export default function Committee() {
 
             <div className="cprof-description">
               <p>
-                Dr. G. Viswanathan founded Vellore Engineering College in 1984
+                Mr. G. Viswanathan founded Vellore Engineering College in 1984
                 at Vellore. He envisioned that this Institution would offer
                 World-Class Education to students who would in turn create an
                 indelible impact on the society. The engineering college that
@@ -181,19 +181,19 @@ export default function Committee() {
             <MyModal
               show={CpModal1}
               onHide={cp1}
-              title="Dr. G. VISWANATHAN"
+              title="Mr. G. VISWANATHAN"
               keyboard={true}>
               <h5>
-                <b>Dr. G. Viswanathan</b> - Chancellor
+                <b>Mr. G. Viswanathan</b> - Chancellor
                 <br />
-                Dr. G. Viswanathan, the founder-chancellor of VIT University,
+                Mr. G. Viswanathan, the founder-chancellor of VIT University,
                 was born on December 8, 1938 in a remote village near Vellore in
-                Tamil Nadu. Dr. GV’s life is a source of inspiration to the
+                Tamil Nadu. Mr. GV’s life is a source of inspiration to the
                 aspiring youth.
                 <br /> <br />
-                <b>Dr. G. Viswanathan</b> − The Student
+                <b>Mr. G. Viswanathan</b> − The Student
                 <br />
-                Dr. G. Viswanathan completed Advanced Management Program at
+                Mr. G. Viswanathan completed Advanced Management Program at
                 Harvard Business School in 2003, nearly four decades after his
                 University education, reaffirming his fervour in being an
                 eternal student. He excelled in academics right from his
@@ -205,24 +205,24 @@ export default function Committee() {
                 Loyola College, Chennai. Following this, he graduated in Law
                 from Madras Law College.
                 <br /> <br />
-                <b>Dr. G. Viswanathan</b> − The Leader of the People
+                <b>Mr. G. Viswanathan</b> − The Leader of the People
                 <br />
                 A student leader in his twenties entering Indian parliament was
-                something incredible, especially in 1960s. But it was Dr. G.
+                something incredible, especially in 1960s. But it was Mr. G.
                 Viswanathan who championed people’s issues in the parliament and
                 they, in turn, reposed faith in the leader who fulfilled their
                 expectations. They re-elected him by a bigger margin in the next
                 election for another five-year term. He travelled to different
                 parts of the world as a member of parliamentary delegations and
-                appreciated issues in a global perspective. Dr. G. Viswanathan
+                appreciated issues in a global perspective. Mr. G. Viswanathan
                 wanted to play a bigger role in the provincial politics in order
                 to make a direct contribution in bettering the lives of the
                 people in the region. He was elected to Tamil Nadu Legislative
                 Assembly for ten years. During this period, he served as a
                 Minister for two years.
                 <br /> <br />
-                <b>Dr. G. Viswanathan</b> − The Educator <br />
-                Dr. G. Viswanathan founded Vellore Engineering College in 1984
+                <b>Mr. G. Viswanathan</b> − The Educator <br />
+                Mr. G. Viswanathan founded Vellore Engineering College in 1984
                 at Vellore. He envisioned that this Institution would offer
                 World-Class Education to students who would in turn create an
                 indelible impact on the society. The engineering college that
@@ -239,9 +239,9 @@ export default function Committee() {
                 the highest accreditation grade from the Government of India
                 reflect the University’s penchant for excellence on all fronts.
                 <br /> <br />
-                <b>Dr. G. Viswanathan</b> − The Institution <br />
+                <b>Mr. G. Viswanathan</b> − The Institution <br />
                 Due to his passion for societal development and compassion for
-                the underprivileged, Dr. GV has launched several schemes for
+                the underprivileged, Mr. GV has launched several schemes for
                 uplifting the women and unemployed youth in the region to help
                 them become self-reliant. He offers scholarships to students
                 from disadvantaged sections of the society to enable them to
@@ -251,7 +251,7 @@ export default function Committee() {
                 villages with the motto of improving the quality of lives of the
                 rural people. His vision of transforming Vellore into a greener
                 and cooler town by planting one million saplings has begun to
-                yield fruit. Dr. GV’s farsightedness extends beyond horizons.
+                yield fruit. Mr. GV’s farsightedness extends beyond horizons.
               </h5>
             </MyModal>
           </div>
