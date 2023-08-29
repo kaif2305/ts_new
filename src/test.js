@@ -4,7 +4,7 @@ const app = express();
 app.use(cors());
 
 const mongoose = require("mongoose");
-const User = require('./Pages/model/userSchema.js');
+const User = require('./Pages/Model/userSchema.js');
 
 require('dotenv').config({ path: "../.env.local" });
 process.on("uncaughtException", (err) => {
@@ -36,7 +36,7 @@ app.get("/admin/view",(req,res) => {
     console.log("trying to fetch")
     const data = jsonData.map((item) => {
       const newItem = {title:item.title, firstName:item.firstName, lastName:item.lastName, email:item.email, _id:item._id} ;
-      newItem.uploadedAbstract = `https://api.technoscape.in/users/files/${newItem._id}`;
+      newItem.uploadedAbstract = `https://api.technoscape.in/admin/view`;
       return newItem;
     });
     res.send(data)
