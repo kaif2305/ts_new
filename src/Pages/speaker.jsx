@@ -140,7 +140,7 @@ export default function Speaker() {
                 <h1>Prof. HIDEAKI YOSHITAKE</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
-                  Yokohama National Universit,
+                  Yokohama National university,
                   <br />
                   JAPAN
                 </h3>
@@ -338,19 +338,19 @@ export default function Speaker() {
               </div>
 
               <div className="speaker-details">
-                <h1>Prof. GEROLD REHMANN</h1>
+                <h1>Prof. GEROLD RAHMANN</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
                   Thünen-Institute of Organic Farming,
                   <br />
-                  MALASIYA
+                  GERMANY
                 </h3>
               </div>
             </div>
 
             <div className="speaker-description">
               <p>
-                Prof. Gerold Rehmann is a highly accomplished academician from
+                Prof. Gerold Rahmann is a highly accomplished academician from
                 Germany, known for his influential work in the field of Organic
                 Farming. He is currently serving as the Director and Professor
                 at the Thünen-Institute of Organic Farming, part of the German
@@ -371,16 +371,16 @@ export default function Speaker() {
             <MyModal
               show={speaker4}
               onHide={sp4}
-              title="Prof. Gerold Rehmann"
+              title="Prof. Gerold Rahmann"
               keyboard={true}>
               <h5>
-                Prof. Gerold Rehmann is a highly accomplished academician from
+                Prof. Gerold Rahmann is a highly accomplished academician from
                 Germany, known for his influential work in the field of Organic
                 Farming. He is currently serving as the Director and Professor
                 at the Thünen-Institute of Organic Farming, part of the German
                 Federal Research Institute of Rural Areas, Forests, and
                 Fisheries. With over ten years of international working
-                experience, Prof. Rehmann's expertise extends across Europe and
+                experience, Prof. Rahmann's expertise extends across Europe and
                 several other countries. He was also the chair of a
                 cross-countries working group to increase agricultural
                 production through innovation. Additionally, he initiated and
@@ -393,7 +393,7 @@ export default function Speaker() {
                 "Green Innovation Centre - Ethiopia" and designing the German
                 support program for Ethiopia. His extensive research output is
                 impressive, with over 380 papers and 18 books published till
-                2020. As an academic mentor, Prof. Rehmann has supervised more
+                2020. As an academic mentor, Prof. Rahmann has supervised more
                 than 100 BSc, MSc, and Ph.D. students till 2020, nurturing the
                 next generation of researchers and scientists in the field of
                 Organic Farming.
@@ -681,7 +681,7 @@ export default function Speaker() {
                 <h1>Dr. KAZUHO NAKAMURA</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
-                  Yokohama National Universit,
+                  Yokohama National university,
                   <br />
                   JAPAN
                 </h3>
@@ -744,7 +744,7 @@ export default function Speaker() {
                 <h1>Prof. TARO ARAKAWA</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
-                  Yokohama National Universit,
+                  Yokohama National university,
                   <br />
                   JAPAN
                 </h3>
@@ -755,7 +755,7 @@ export default function Speaker() {
               <p>
                 Prof. Taro Arakawa is an Associate Professor at the Faculty of
                 Engineering, Division of Intelligent Systems Engineering,
-                Yokohama National University. His research domains include a
+                Yokohama National university. His research domains include a
                 wide range of cutting-edge topics, like optical waveguides,
                 compound semiconductors, Molecular Beam Epitaxy (MBE), optical
                 switches....
@@ -779,7 +779,7 @@ export default function Speaker() {
               <h5>
                 Prof. Taro Arakawa is an Associate Professor at the Faculty of
                 Engineering, Division of Intelligent Systems Engineering,
-                Yokohama National University. His research domains include a
+                Yokohama National university. His research domains include a
                 wide range of cutting-edge topics, like optical waveguides,
                 compound semiconductors, Molecular Beam Epitaxy (MBE), optical
                 switches, optical modulators, quantum nanostructures,
@@ -1084,9 +1084,9 @@ export default function Speaker() {
                 <h1>Prof. SATINDER KAUR BRAR</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
-                  University of Zielona Góra,
+                  Lassonde School of Engineering, York University,
                   <br />
-                  POLAND
+                  CANADA
                 </h3>
               </div>
             </div>
@@ -1157,9 +1157,9 @@ export default function Speaker() {
                 <h1>Ir. TS. SAKTHIASWARAN KALIAPPAN</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
-                  University of Zielona Góra,
+                  Federal Government of Malaysia,
                   <br />
-                  POLAND
+                  MALAYSIA
                 </h3>
               </div>
             </div>
@@ -1221,9 +1221,9 @@ export default function Speaker() {
                 <h1>Prof. HIROMITSU TAKABA</h1>
                 {/* <h2>Founder & Chancellor</h2> */}
                 <h3>
-                  University of Zielona Góra,
+                  Kogakuin University,
                   <br />
-                  POLAND
+                  JAPAN
                 </h3>
               </div>
             </div>
