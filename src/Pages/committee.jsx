@@ -148,7 +148,7 @@ export default function Committee() {
               </div>
 
               <div className="cprof-details">
-                <h1>Mr. G. VISWANATHAN</h1>
+                <h1>Dr. G. VISWANATHAN</h1>
                 <h2>Founder & Chancellor</h2>
                 <h3>
                   Vellore Institute of Technology,
@@ -160,7 +160,7 @@ export default function Committee() {
 
             <div className="cprof-description">
               <p>
-                Mr. G. Viswanathan founded Vellore Engineering College in 1984
+                Dr. G. Viswanathan founded Vellore Engineering College in 1984
                 at Vellore. He envisioned that this Institution would offer
                 World-Class Education to students who would in turn create an
                 indelible impact on the society. The engineering college that
@@ -181,19 +181,19 @@ export default function Committee() {
             <MyModal
               show={CpModal1}
               onHide={cp1}
-              title="Mr. G. VISWANATHAN"
+              title="Dr. G. VISWANATHAN"
               keyboard={true}>
               <h5>
-                <b>Mr. G. Viswanathan</b> - Chancellor
+                <b>Dr. G. Viswanathan</b> - Chancellor
                 <br />
-                Mr. G. Viswanathan, the founder-chancellor of VIT University,
+                Dr. G. Viswanathan, the founder-chancellor of VIT University,
                 was born on December 8, 1938 in a remote village near Vellore in
                 Tamil Nadu. Mr. GV’s life is a source of inspiration to the
                 aspiring youth.
                 <br /> <br />
-                <b>Mr. G. Viswanathan</b> − The Student
+                <b>Dr. G. Viswanathan</b> − The Student
                 <br />
-                Mr. G. Viswanathan completed Advanced Management Program at
+                Dr. G. Viswanathan completed Advanced Management Program at
                 Harvard Business School in 2003, nearly four decades after his
                 University education, reaffirming his fervour in being an
                 eternal student. He excelled in academics right from his
@@ -205,24 +205,24 @@ export default function Committee() {
                 Loyola College, Chennai. Following this, he graduated in Law
                 from Madras Law College.
                 <br /> <br />
-                <b>Mr. G. Viswanathan</b> − The Leader of the People
+                <b>Dr. G. Viswanathan</b> − The Leader of the People
                 <br />
                 A student leader in his twenties entering Indian parliament was
-                something incredible, especially in 1960s. But it was Mr. G.
+                something incredible, especially in 1960s. But it was Dr. G.
                 Viswanathan who championed people’s issues in the parliament and
                 they, in turn, reposed faith in the leader who fulfilled their
                 expectations. They re-elected him by a bigger margin in the next
                 election for another five-year term. He travelled to different
                 parts of the world as a member of parliamentary delegations and
-                appreciated issues in a global perspective. Mr. G. Viswanathan
+                appreciated issues in a global perspective. Dr. G. Viswanathan
                 wanted to play a bigger role in the provincial politics in order
                 to make a direct contribution in bettering the lives of the
                 people in the region. He was elected to Tamil Nadu Legislative
                 Assembly for ten years. During this period, he served as a
                 Minister for two years.
                 <br /> <br />
-                <b>Mr. G. Viswanathan</b> − The Educator <br />
-                Mr. G. Viswanathan founded Vellore Engineering College in 1984
+                <b>Dr. G. Viswanathan</b> − The Educator <br />
+                Dr. G. Viswanathan founded Vellore Engineering College in 1984
                 at Vellore. He envisioned that this Institution would offer
                 World-Class Education to students who would in turn create an
                 indelible impact on the society. The engineering college that
@@ -239,7 +239,7 @@ export default function Committee() {
                 the highest accreditation grade from the Government of India
                 reflect the University’s penchant for excellence on all fronts.
                 <br /> <br />
-                <b>Mr. G. Viswanathan</b> − The Institution <br />
+                <b>Dr. G. Viswanathan</b> − The Institution <br />
                 Due to his passion for societal development and compassion for
                 the underprivileged, Mr. GV has launched several schemes for
                 uplifting the women and unemployed youth in the region to help
@@ -621,7 +621,7 @@ export default function Committee() {
               </div>
 
               <div className="cprof-details">
-                <h1>Mr. G V SELVAM</h1>
+                <h1>Dr. G V SELVAM</h1>
                 <h2>Vice President</h2>
                 <h3>
                   Vellore Institute of Technology,
@@ -633,7 +633,7 @@ export default function Committee() {
 
             <div className="cprof-description">
               <p>
-                Mr. G V Selvam has been associated with the institution since
+                Dr. G V Selvam has been associated with the institution since
                 1999, when he first assumed office as Vice-Chairman of Vellore
                 Engineering College. He spearheaded the elevation of Vellore
                 Engineering College to VIT University in 2001, and became its
@@ -654,12 +654,12 @@ export default function Committee() {
             <MyModal
               show={PModal3}
               onHide={p3}
-              title="Mr. G V SELVAM"
+              title="Dr. G V SELVAM"
               keyboard={true}>
               <h5>
-                <b>Mr. G V Selvam </b> Vice - President <br />
+                <b>Dr. G V Selvam </b> Vice - President <br />
                 <br />
-                Mr. G V Selvam has been associated with the institution since
+                Dr. G V Selvam has been associated with the institution since
                 1999, when he first assumed office as Vice-Chairman of Vellore
                 Engineering College. Since then, he has been working
                 relentlessly towards the progress of the institution. He
@@ -669,7 +669,7 @@ export default function Committee() {
                 Pro-Chancellor of a University in the world, which has been
                 recognized by the Limca Book of Records, 2005. He holds a
                 postgraduate degree in Business Administration from University
-                of Madras. Mr. Selvam became the first Vice-President of VIT
+                of Madras. Dr. Selvam became the first Vice-President of VIT
                 Chennai in 2010, where he sculptured the campus from the
                 scratch. The high rise structures, the lush green ambience and
                 the ultra-modern infrastructure that adorn VIT Chennai were
@@ -680,11 +680,11 @@ export default function Committee() {
                 His painstaking efforts in implementing several innovative
                 measures have enabled VIT to emerge as an institution of
                 international eminence. A self-motivated and industrious person,
-                and a farsighted educationalist, Mr. G. V. Selvam possesses an
+                and a farsighted educationalist, Dr. G. V. Selvam possesses an
                 innate ability to spot and nurture talent–be it with the
                 faculty, staff or students. He offers flexible and pragmatic
                 academic solutions not only for toppers but also for slow
-                learners. Mr. Selvam was instrumental in introducing new and
+                learners. Dr. Selvam was instrumental in introducing new and
                 need-based programmes of study such as Law, Architecture, Hotel
                 Management and Agriculture. He introduced the inter-university
                 sports & cultural extravaganza, “Riviera”, which has blossomed
@@ -693,11 +693,11 @@ export default function Committee() {
                 (VITTBI), which has received national acclaim for its service to
                 budding entrepreneurs. The Centre for Sustainable Rural
                 Development and Research Studies [CSRD&RS] is the brainchild of
-                Mr. Selvam. The centre is working towards providing urban
+                Dr. Selvam. The centre is working towards providing urban
                 facilities in rural areas to enhance the living conditions in
                 villages, which would develop the rural folk on par with the
                 urban people in terms of education and employability. A man with
-                a deep passion for nature, Mr. G V Selvam takes immense interest
+                a deep passion for nature, Dr. G V Selvam takes immense interest
                 in green initiatives. The lush green, self-sustaining, VIT
                 campuses in Vellore and Chennai are examples of his efforts to
                 adorn the spaces with natural beauty. He is the brain behind the
@@ -705,7 +705,7 @@ export default function Committee() {
                 and barren landscape of Vellore, and the Clean Palar Project,
                 which is taking measures to restore the Palar river bed to its
                 original texture. He is passionate about transforming Vellore
-                into a clean, green and nature-rich city. Mr. Selvam is inspired
+                into a clean, green and nature-rich city. Dr. Selvam is inspired
                 and guided by Dr. APJ Abdul Kalam’s principle: “A leader must
                 have vision and passion, and not be afraid of any problem.
                 Instead, he should know how to defeat it. Most importantly, he
@@ -1041,7 +1041,7 @@ export default function Committee() {
 
                 <div className="cprof-details">
                   <h1>Dr. JAYABARATHI T</h1>
-                  <h2>Register</h2>
+                  <h2>Registrar</h2>
                   <h3>
                     Vellore Institute of Technology,
                     <br />
