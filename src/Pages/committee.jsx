@@ -188,7 +188,7 @@ export default function Committee() {
                 <br />
                 Dr. G. Viswanathan, the founder-chancellor of VIT University,
                 was born on December 8, 1938 in a remote village near Vellore in
-                Tamil Nadu. Mr. GV’s life is a source of inspiration to the
+                Tamil Nadu. Dr. GV’s life is a source of inspiration to the
                 aspiring youth.
                 <br /> <br />
                 <b>Dr. G. Viswanathan</b> − The Student
@@ -241,7 +241,7 @@ export default function Committee() {
                 <br /> <br />
                 <b>Dr. G. Viswanathan</b> − The Institution <br />
                 Due to his passion for societal development and compassion for
-                the underprivileged, Mr. GV has launched several schemes for
+                the underprivileged, Dr. GV has launched several schemes for
                 uplifting the women and unemployed youth in the region to help
                 them become self-reliant. He offers scholarships to students
                 from disadvantaged sections of the society to enable them to
@@ -251,7 +251,7 @@ export default function Committee() {
                 villages with the motto of improving the quality of lives of the
                 rural people. His vision of transforming Vellore into a greener
                 and cooler town by planting one million saplings has begun to
-                yield fruit. Mr. GV’s farsightedness extends beyond horizons.
+                yield fruit. Dr. GV’s farsightedness extends beyond horizons.
               </h5>
             </MyModal>
           </div>
@@ -528,8 +528,7 @@ export default function Committee() {
                 his tours to USA, Australia, Singapore, Italy, China, Greece,
                 Malaysia, Jordan, Oman, Lebanon, Syria and Rwanda. He is an
                 active member of the Australian engineers Association in
-                Melbourne. His hobbies include playing tennis, cricket, cooking
-                and surfing the net.
+                Melbourne. His hobbies include playing tennis, cricket and cooking.
               </h5>
             </MyModal>
           </div>
@@ -664,12 +663,12 @@ export default function Committee() {
                 Engineering College. Since then, he has been working
                 relentlessly towards the progress of the institution. He
                 spearheaded the elevation of Vellore Engineering College to VIT
-                University in 2001, and became its first Pro-Chancellor. Mr.
+                University in 2001, and became its first Pro-Chancellor. Dr. G V 
                 Selvam enjoys the distinction of being the youngest
                 Pro-Chancellor of a University in the world, which has been
                 recognized by the Limca Book of Records, 2005. He holds a
                 postgraduate degree in Business Administration from University
-                of Madras. Dr. Selvam became the first Vice-President of VIT
+                of Madras. Dr. G V Selvam became the first Vice-President of VIT
                 Chennai in 2010, where he sculptured the campus from the
                 scratch. The high rise structures, the lush green ambience and
                 the ultra-modern infrastructure that adorn VIT Chennai were
@@ -684,7 +683,7 @@ export default function Committee() {
                 innate ability to spot and nurture talent–be it with the
                 faculty, staff or students. He offers flexible and pragmatic
                 academic solutions not only for toppers but also for slow
-                learners. Dr. Selvam was instrumental in introducing new and
+                learners. Dr. G V Selvam was instrumental in introducing new and
                 need-based programmes of study such as Law, Architecture, Hotel
                 Management and Agriculture. He introduced the inter-university
                 sports & cultural extravaganza, “Riviera”, which has blossomed
@@ -705,7 +704,7 @@ export default function Committee() {
                 and barren landscape of Vellore, and the Clean Palar Project,
                 which is taking measures to restore the Palar river bed to its
                 original texture. He is passionate about transforming Vellore
-                into a clean, green and nature-rich city. Dr. Selvam is inspired
+                into a clean, green and nature-rich city. Dr. G V Selvam is inspired
                 and guided by Dr. APJ Abdul Kalam’s principle: “A leader must
                 have vision and passion, and not be afraid of any problem.
                 Instead, he should know how to defeat it. Most importantly, he
