@@ -303,8 +303,8 @@ export default function InternatinoalAdvisory() {
                 <img src="images\prof\Nandita Dasgupta.jpeg" />
                 <div>
                   <h4>Dr. Nandita Dasgupta</h4>
-                  <h3>SPAIN</h3>
-                  <h5>Universidad de Burgos</h5>
+                  <h3>INDIA</h3>
+                  <h5>CSIR-Indian Institute of Toxicology Research</h5>
                 </div>
               </div>
             </div>
