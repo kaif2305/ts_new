@@ -4,9 +4,7 @@ const app = express();
 app.use(cors());
 
 const mongoose = require("mongoose");
-const User = require('./Pages/model/userSchema.js');
-
-// const Payment = require('./Pages/Model/paymentSchema.js');
+const User = require('./Pages/Model/userSchema.js');
 
 require('dotenv').config({ path: "../.env.local" });
 process.on("uncaughtException", (err) => {
@@ -51,26 +49,6 @@ app.get("/admin/view", (req, res) => {
     })
 })
 
-// app.get("/admin/payment", (req, res) => {
-//   console.log("reached herex`")
-//   Payment.find({}, { _id: 1, title: 1, firstName: 1, lastName: 1, email: 1, jobTitle: 1, country: 1, paparId: 1 })
-//     .then((jsonData) => {
-//       // console.log(jsonData)
-//       console.log("trying to fetch")
-//       const data = jsonData.map((item) => {
-//         const newItem = { title: item.title, firstName: item.firstName, lastName: item.lastName, email: item.email, _id: item._id, jobTitle: item.jobTitle, country: item.country, paperId: item.paperId };
-//         // newItem.uploadedAbstract = `https://api.technoscape.in/users/files/${newItem._id}`;
-//         return newItem;
-//       });
-//       res.send(data)
-//       // console.log(data)
-//       console.log("collected data")
-
-//     })
-//     .catch((err) => {
-//       res.status(500).send(err);
-//     })
-// })
 
 
 const server = app.listen(port, () => {
