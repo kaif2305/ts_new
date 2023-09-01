@@ -241,17 +241,18 @@ export default function Committee() {
                 <br /> <br />
                 <b>Dr. G. Viswanathan</b> − The Institution <br />
                 Due to his passion for societal development and compassion for
-                the underprivileged, Mr. GV has launched several schemes for
-                uplifting the women and unemployed youth in the region to help
-                them become self-reliant. He offers scholarships to students
-                from disadvantaged sections of the society to enable them to
-                pursue higher education. He has established the Universal Higher
-                Education Trust to create opportunities for higher education to
-                every deserving student in the region. He has adopted several
-                villages with the motto of improving the quality of lives of the
-                rural people. His vision of transforming Vellore into a greener
-                and cooler town by planting one million saplings has begun to
-                yield fruit. Mr. GV’s farsightedness extends beyond horizons.
+                the underprivileged, Dr. G. Viswanathan has launched several
+                schemes for uplifting the women and unemployed youth in the
+                region to help them become self-reliant. He offers scholarships
+                to students from disadvantaged sections of the society to enable
+                them to pursue higher education. He has established the
+                Universal Higher Education Trust to create opportunities for
+                higher education to every deserving student in the region. He
+                has adopted several villages with the motto of improving the
+                quality of lives of the rural people. His vision of transforming
+                Vellore into a greener and cooler town by planting one million
+                saplings has begun to yield fruit. Dr. G. Viswanathans
+                farsightedness extends beyond horizons.
               </h5>
             </MyModal>
           </div>
@@ -669,7 +670,7 @@ export default function Committee() {
                 Pro-Chancellor of a University in the world, which has been
                 recognized by the Limca Book of Records, 2005. He holds a
                 postgraduate degree in Business Administration from University
-                of Madras. Dr. Selvam became the first Vice-President of VIT
+                of Madras. Dr. G V Selvam became the first Vice-President of VIT
                 Chennai in 2010, where he sculptured the campus from the
                 scratch. The high rise structures, the lush green ambience and
                 the ultra-modern infrastructure that adorn VIT Chennai were
@@ -684,7 +685,7 @@ export default function Committee() {
                 innate ability to spot and nurture talent–be it with the
                 faculty, staff or students. He offers flexible and pragmatic
                 academic solutions not only for toppers but also for slow
-                learners. Dr. Selvam was instrumental in introducing new and
+                learners. Dr. G V Selvam was instrumental in introducing new and
                 need-based programmes of study such as Law, Architecture, Hotel
                 Management and Agriculture. He introduced the inter-university
                 sports & cultural extravaganza, “Riviera”, which has blossomed
@@ -705,11 +706,11 @@ export default function Committee() {
                 and barren landscape of Vellore, and the Clean Palar Project,
                 which is taking measures to restore the Palar river bed to its
                 original texture. He is passionate about transforming Vellore
-                into a clean, green and nature-rich city. Dr. Selvam is inspired
-                and guided by Dr. APJ Abdul Kalam’s principle: “A leader must
-                have vision and passion, and not be afraid of any problem.
-                Instead, he should know how to defeat it. Most importantly, he
-                must work with integrity.”
+                into a clean, green and nature-rich city. Dr. G V Selvam is
+                inspired and guided by Dr. APJ Abdul Kalam’s principle: “A
+                leader must have vision and passion, and not be afraid of any
+                problem. Instead, he should know how to defeat it. Most
+                importantly, he must work with integrity.”
               </h5>
             </MyModal>
           </div>
