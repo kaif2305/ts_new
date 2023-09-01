@@ -136,7 +136,7 @@ export default function Committee() {
         </div>
       </Container>
 
-      <Colab_clg />
+      {/* <Colab_clg /> */}
       <div className="wrapper">
         <h1>CHIEF PATRONS</h1>
 
@@ -394,7 +394,7 @@ export default function Committee() {
                 <br /> <br />
                 Prof. Krzysztof Wilde has held the position of the 41st rector
                 of Gdańsk University of Technology – one of the most highly
-                acclaimed and best ranked technical universities in Poland –
+                acclaimed and best-ranked technical universities in Poland –
                 since 2019. He is a respected scientist and manager, an
                 international expert in the field of bridge structures,
                 mechanics and diagnostics of building structures, as well as a
@@ -404,8 +404,8 @@ export default function Committee() {
                 <b>Education and achievements</b> Before becoming the rector of
                 Gdańsk Tech, he was the dean of the Faculty of Civil and
                 Environmental Engineering at gdańsk Tech for three terms of
-                office. He has gained international experience, ineter alia, at
-                the University of Tokyo in Japan, where he earned a PhD title
+                office. He has gained international experience, inter alia, at
+                the University of Tokyo in Japan, where he earned a Ph.D. title
                 and then an associate professor of the university. He is the
                 author and co-author of over 200 publications and four patents,
                 and in 2016 he became a member of the Polish Academy of
@@ -432,8 +432,8 @@ export default function Committee() {
                 initiative.
                 <br />
                 <br />
-                In his work, he focuses on integrating the world of science with
-                business sector, as well as creating the best conditions for
+                In his work, he focuses on integrating the world of science and
+                the business sector, as well as creating the best conditions for
                 development for students and young researchers. In the economic
                 environment, he is perceived as a creative scientist and an
                 effective manager.
@@ -529,8 +529,8 @@ export default function Committee() {
                 his tours to USA, Australia, Singapore, Italy, China, Greece,
                 Malaysia, Jordan, Oman, Lebanon, Syria and Rwanda. He is an
                 active member of the Australian engineers Association in
-                Melbourne. His hobbies include playing tennis, cricket, cooking
-                and surfing the net.
+                Melbourne. His hobbies include playing tennis, cricket and
+                cooking.
               </h5>
             </MyModal>
           </div>
@@ -759,16 +759,16 @@ export default function Committee() {
               title="Dr. RAMBABU KODALI"
               keyboard={true}>
               <h5>
-                Dr. Rambabu Kodali is the current Vice Chancellor of Vellore
+                Rambabu Kodali is the current Vice Chancellor of Vellore
                 Institute of Technology, Vellore. He obtained his BE, M.Tech and
-                PhD degrees from IIT Kharagpur. He worked in BIT-Pilani-Pilani
+                PhD degrees from IIT Kharagpur. He worked in the BITS-Pilani
                 campus, where he was nominated as "Shri S.K Birla Chair
                 Professor". He has made significant contributions and completed
                 several research projects in the field of flexible manufacturing
                 systems. Dr. Rambabu has published over 200 papers and has
                 supervised over 13 PhDs in various international, national
                 journals and conferences. He became the Director of NIT
-                Jamshedpur in 2012, and then became the first Mentor Director of
+                Jamshedpur in 2012 and then became the first Mentor Director of
                 IIIT Ranchi in 2016. Later on, he went on to become the Pro-Vice
                 chancellor at Kalinga Institute of Industrial Technology and the
                 Director of MITS Madanapalle.
@@ -883,12 +883,11 @@ export default function Committee() {
                 almost since the inception of the institution in the year 1984.
                 Prior to becoming the Registrar, she has served the institution
                 in various capacities, including as a Head of the Department and
-                the Dean of School of Electrical EngineerinG. She has a teaching
+                the Dean of School of Electrical Engineering. She has a teaching
                 and research experience of a little more than thirty-six years.
                 An active researcher with a Scopus H-index of twenty-one and
-                more than two thousand Scopus citations, she has a few highly
-                cited publications to her credit. Her interests are teaching,
-                research and administration.
+                more than two thousand Scopus citations to her credit. Her
+                interests are teaching, research and administration.
               </h5>
             </MyModal>
           </div>
@@ -934,21 +933,21 @@ export default function Committee() {
               title="Dr. MURUGANANDAM L"
               keyboard={true}>
               <h5>
-                Dr. L. Muruganandam is the Dean of School of Chemical
-                Engineering, Vellore Institute of Technology. He holds Ph.D.
-                from IIT Madras for his study on Hydrodynamic on Z-type radial
-                flow reactor related to hydrodynamics of Liquid-solid
-                circulating fluidized bed. Designed and fabricated 2.5 m LSCFB
-                column and also a SMX static mixer to prepare stable emulsion
+                L. Muruganandam is the Dean of the School of Chemical
+                Engineering, Vellore Institute of Technology. He holds a PhD
+                from IIT Madras for his study on hydrodynamics on Z-type radial
+                flow reactors related to the hydrodynamics of Liquid-solid
+                circulating fluidized bed. Designed and fabricated a 2.5 m LSCFB
+                column and an SMX static mixer to prepare a stable emulsion
                 solution. Developed shock tube setup that can generate shock
-                wave with Mach-3 a tool to study in Chemical Engineering
+                waves with Mach-3 a tool to study in Chemical Engineering
                 application. He is proficient in ASPEN; ANSYS and COMSOL. He has
-                50+ journal paper in reputed national and international journals
-                to his credit on the topics on CFD, fluidization, membrane
-                development, pyrolysis and biodegradation studiesl. He has 9
-                GenBank Publication. He is currently working on treatments of
-                hydrocarbons in oil produced water using solar nano photo
-                catalysts and by Inverse Fluidization techniques.
+                50+ journal papers in reputed national and international
+                journals to his credit on the topics of CFD, fluidization,
+                membrane development, pyrolysis and biodegradation studies. He
+                has 9 GenBank publications. He is currently working on
+                treatments of hydrocarbons in oil-produced water using solar
+                nano photocatalysts and by Inverse Fluidization techniques.
               </h5>
             </MyModal>
           </div>
@@ -1168,11 +1167,12 @@ export default function Committee() {
                   the anthropogenic solution. In 2012, he received the Best
                   Mineral Engineer Award for the development of an outstanding
                   strategy and concept for sustainable agricultural productivity
-                  using low-grade rock phosphate tailinG. He was also awarded
-                  the Best Platform Presenter by International Water Association
-                  (Poland) in 2017, Outstanding Young Chemical Engineer from the
-                  IIChE, and the prestigious Senior Research Fellowship award
-                  from the Defense R&D Organization, Government of India.
+                  using low-grade rock phosphate tailing. He was also awarded
+                  the Best Platform Presenter by the International Water
+                  Association (Poland) in 2017, Outstanding Young Chemical
+                  Engineer from the IIChE, and the prestigious Senior Research
+                  Fellowship award from the Defense R&D Organization, Government
+                  of India.
                 </h5>
               </MyModal>
             </div>
@@ -1221,9 +1221,9 @@ export default function Committee() {
               title="Dr. ARUNA SINGH"
               keyboard={true}>
               <h5>
-                Dr. Aruna Singh is currently serving as a Professor in the
-                School of Chemical Engineering, VIT Vellore, India. She has been
-                visiting professor in Caledonian College of Engineering, Muscat,
+                Aruna Singh is currently serving as a Professor in the School of
+                Chemical Engineering, VIT Vellore, India. She has been a
+                visiting professor at Caledonian College of Engineering, Muscat,
                 Sultanate of Oman. She is one of the first researchers to
                 receive a project under the Women Scientist Scheme from DST,
                 Govt. of India. She has done significant research in various
@@ -1231,10 +1231,10 @@ export default function Committee() {
                 cabinet design and drying, and ohmic heating design for food
                 slurry treatment. She is currently working on a sewage treatment
                 project in collaboration with YNU, JAPAN. Additionally, she has
-                also served as Principal Investigator for a project under Women
-                Scientist Scheme-A, Govt. of India and co-Principal Investigator
-                of a Newton-Bhabha Scheme Biotechnology project in collaboration
-                with University of Leeds, UK.
+                also served as Principal Investigator for a project under the
+                Women Scientist Scheme-A, Govt. of India and co-principal
+                Investigator of a Newton-Bhabha Scheme Biotechnology project in
+                collaboration with the University of Leeds, UK.
               </h5>
             </MyModal>
           </div>
@@ -1258,12 +1258,12 @@ export default function Committee() {
 
             <div className="cprof-description">
               <p>
-                Dr. Nakamura Kazuho is currently serving as an Associate
-                Professor at the Department of Material Science and Chemical
-                Engineering at Yokohama National University, Japan. He has done
-                significant research in various fields such as Filtration, Unit
-                Processes, Zeta Potentials and produced a thesis on the study of
-                Filtration and Backwashing Behaviors...
+                Nakamura Kazuho is currently serving as an Associate Professor
+                at the Department of Material Science and Chemical Engineering
+                at Yokohama National University, Japan. He has done significant
+                research in various fields such as Filtration, Unit Processes,
+                Zeta Potentials and produced a thesis on the study of Filtration
+                and Backwashing Behaviors...
               </p>
 
               <button
@@ -1282,18 +1282,17 @@ export default function Committee() {
               title="Dr. KAZUHO NAKAMURA"
               keyboard={true}>
               <h5>
-                Dr. Nakamura Kazuho is currently serving as an Associate
-                Professor at the Department of Material Science and Chemical
-                Engineering at Yokohama National University, Japan. He has done
-                significant research in various fields such as Filtration, Unit
-                Processes, Zeta Potentials and produced a thesis on the study of
-                Filtration and Backwashing Behaviors. Additionally, he has also
-                worked on Grant-In-Aid Scientific Research Projects. Prof
-                Nakamura was honored with the renowned DPI Award for his
-                extensive contribution in the field of research. He has also
-                been associated with several international universities as
-                Visiting Professor such as in The University of California San
-                Francisco.
+                Nakamura Kazuho is currently serving as an Associate Professor
+                at the Department of Material Science and Chemical Engineering
+                at Yokohama National University, Japan. He has done significant
+                research in various fields such as Filtration, Unit Processes,
+                Zeta Potentials and produced a thesis on the study of Filtration
+                and Backwashing Behaviors. Additionally, he has also worked on
+                Grant-In-Aid Scientific Research Projects. Prof Nakamura was
+                honoured with the renowned DPI Award for his extensive
+                contribution to the field of research. He has also been
+                associated with several international universities as a Visiting
+                Professor such as in The University of California San Francisco.
               </h5>
             </MyModal>
           </div>
@@ -1317,11 +1316,12 @@ export default function Committee() {
 
             <div className="cprof-description">
               <p>
-                Dr. Jakub Drewnowski works as a Professor in the Department of
-                Civil & Environmental Engineering at Gdańsk University of
-                Technology, Poland. His research interests include Wastewater
+                Jakub Drewnowski works as a Professor in the Department of Civil
+                & Environmental Engineering at Gdańsk University of Technology,
+                Poland. His research interests include Wastewater
                 Denitrification, Water and Wastewater Treatment, and Wastewater
-                Analysis and Purification Technologies with simulation tools....
+                Analysis and Purification Technologies with simulation tools. He
+                has....
               </p>
 
               <button
@@ -1340,18 +1340,18 @@ export default function Committee() {
               title="Dr. JAKUB DREWNOWSKI"
               keyboard={true}>
               <h5>
-                Dr. Jakub Drewnowski works as a Professor in the Department of
-                Civil & Environmental Engineering at Gdańsk University of
-                Technology, Poland. His research interests include Wastewater
+                Jakub Drewnowski works as a Professor in the Department of Civil
+                & Environmental Engineering at Gdańsk University of Technology,
+                Poland. His research interests include Wastewater
                 Denitrification, Water and Wastewater Treatment, and Wastewater
                 Analysis and Purification Technologies with simulation tools. He
                 has numerous publications in peer-reviewed journals for the
                 same. He has been the Principal Investigator for two projects
                 under the Ministry of Science and Higher Education targeted for
-                development of young scientific staff and one project
+                the development of young scientific staff and one project
                 co-financed by the European Union for the development of
                 interdisciplinary doctoral studies at GUT, Poland. He has been
-                an integral member of International Water Association’s
+                an integral member of the International Water Association’s
                 establishments in Poland, having chaired the conference in 2017
                 and co-chaired in 2016.
               </h5>
@@ -1527,8 +1527,8 @@ export default function Committee() {
 
             <div className="cprof-description">
               <p>
-                Dr. Mohana Roopan is an award-winning top 2% scientist with over
-                12 years of experience in the field of organic chemistry and
+                Mohana Roopan is an award-winning top 2% scientist with over 12
+                years of experience in the field of organic chemistry and
                 nanotechnology. He completed his master’s in Organic chemistry
                 and a Ph.D. degree in the subject of organic synthesis at VIT
                 University, Vellore. Currently, he works as an Associate
@@ -1551,17 +1551,17 @@ export default function Committee() {
               title="Dr. MOHANA ROOPAN S."
               keyboard={true}>
               <h5>
-                Dr. Mohana Roopan is an award-winning top 2% scientist with over
-                12 years of experience in the field of organic chemistry and
+                Mohana Roopan is an award-winning top 2% scientist with over 12
+                years of experience in the field of organic chemistry and
                 nanotechnology. He completed his master’s in Organic chemistry
                 and a Ph.D. degree in the subject of organic synthesis at VIT
                 University, Vellore. Currently, he works as an Associate
                 professor at VIT University, India. His research focuses on the
                 application of green nanotechnologies and organic synthesis as
                 well as over 200 publications concerning Heterocyclic Chemistry,
-                Organic Synthesis, Photochemistry, Catalysis, and nanomaterial.
-                Dr. Roopan was honored with Novel Research Academy's Best Senior
-                Faculty Award for 2020- 2021, the Dr. APJ Abdul Kalam
+                Organic Synthesis, Photochemistry, Catalysis, and nanomaterials.
+                Dr. Roopan was honoured with Novel Research Academy's Best
+                Senior Faculty Award for 2020- 2021, the Dr. APJ Abdul Kalam
                 Distinguished Fellow Award 2018-2019 for Chemistry from the Bose
                 Science Society and Novel Research Academy, Pondicherry, and
                 many more.
@@ -1611,13 +1611,13 @@ export default function Committee() {
               title="Dr. ASLAM ABDULLAH M"
               keyboard={true}>
               <h5>
-                M Aslam Abdullah working as Associate Professor at Vellore
+                Dr Aslam Abdullah working as Associate Professor at Vellore
                 Institute of Technology, Vellore; Qualified Doctorate in
                 Petrochemical Technology from Anna University, Chennai, M. Tech.
-                in Gas Engineering from University of Petroleum and Energy
+                in Gas Engineering from the University of Petroleum and Energy
                 Studies, B.Tech in Petrochemical Technology from Bharathidasan
                 University. Proven track record in completing DST-SERB project
-                in the area of waste water treatment. As a faculty, founded
+                in the area of waste water treatment. As a faculty, founded the
                 Society of Petroleum Engineers-VIT Student Chapter in 2017 along
                 with a group of students. Global SPE awarded us as the Best
                 Outstanding Student Chapter Award in 2018 and Presidency

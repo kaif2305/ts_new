@@ -15,7 +15,7 @@ export default function InternatinoalAdvisory() {
         </div>
       </Container>
 
-      <Colab_clg />
+      {/* <Colab_clg /> */}
 
       <div className="inter-outer">
         <Container fluid>
@@ -414,7 +414,7 @@ export default function InternatinoalAdvisory() {
                 <div>
                   <h4>Prof. Regupathi I</h4>
                   <h3>INDIA</h3>
-                  <h5>National Institute of Technology</h5>
+                  <h5>NIT Suratkal</h5>
                 </div>
               </div>
             </div>
@@ -502,7 +502,7 @@ export default function InternatinoalAdvisory() {
                 <div>
                   <h4>Dr. Sivakumar D</h4>
                   <h3>INDIA</h3>
-                  <h5>Ranipet Tannery Effluent Treatment Company</h5>
+                  <h5> RANITEC, India</h5>
                 </div>
               </div>
             </div>
