@@ -11,6 +11,8 @@ import About from "./Pages/about";
 
 import Speakers from "./Pages/speaker";
 
+import Sponsors from "./Pages/sponsor"
+
 import Home from "./Pages/Home/home";
 
 import IntAdv from "./Pages/internatinoal_advisory";
@@ -34,6 +36,7 @@ function App() {
           <Route path="/speakers" element={<Speakers />} />
           <Route path="/conference theme" element={<Themes />} />
           <Route path="/international advisory" element={<IntAdv />} />
+          <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/committee" element={<Committee />} />
           <Route path="/admin/view" element={<View />} />

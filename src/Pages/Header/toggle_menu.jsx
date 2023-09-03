@@ -29,43 +29,40 @@ export default function Toggle() {
       <div id="menu_id">
         <nav>
           <a style={{ animationDelay: "0.2s" }} onClick={scrollToTop}>
-
             <Link to="/">Home</Link>
           </a>
           <a style={{ animationDelay: "0.3s" }} onClick={scrollToTop}>
-
             <Link to="/about us">About</Link>
           </a>
           <a style={{ animationDelay: "0.4s" }} onClick={scrollToTop}>
-
             <Link to="/conference theme">Conference Themes </Link>
           </a>
 
           <a style={{ animationDelay: "0.5s" }} onClick={scrollToTop}>
-
             <Link to="/registration">Registration</Link>
           </a>
           <a style={{ animationDelay: "0.6s" }} onClick={scrollToTop}>
-
-<Link to="/speakers">Keynote Speakers</Link>
-</a>
+            <Link to="/speakers">Keynote Speakers</Link>
+          </a>
 
           <a style={{ animationDelay: "0.7s" }} onClick={scrollToTop}>
-
-            <Link to="/committee">Committee
-            </Link>
+            <Link to="/committee">Committee</Link>
           </a>
-          <a style={{ animationDelay: "0.8s" }} onClick={scrollToTop}>
 
-            <Link to="/international advisory">International Advisory Committee </Link>
+          <a style={{ animationDelay: "0.8s" }} onClick={scrollToTop}>
+            <Link to="/international advisory">
+              International Advisory Committee{" "}
+            </Link>
           </a>
 
           <a style={{ animationDelay: "0.9s" }} onClick={scrollToTop}>
+            <Link to="/sponsors">Sponsors</Link>
+          </a>
 
+          <a style={{ animationDelay: "1s" }} onClick={scrollToTop}>
             <Link to="/partners">Partners </Link>
           </a>
-          <a style={{ animationDelay: "1s" }} onClick={scrollToFooter}>
-
+          <a style={{ animationDelay: "1.1s" }} onClick={scrollToFooter}>
             Contact Us
           </a>
         </nav>
