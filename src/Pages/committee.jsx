@@ -665,7 +665,7 @@ export default function Committee() {
                 Engineering College. Since then, he has been working
                 relentlessly towards the progress of the institution. He
                 spearheaded the elevation of Vellore Engineering College to VIT
-                University in 2001, and became its first Pro-Chancellor. Mr.
+                University in 2001, and became its first Pro-Chancellor. Dr. G V
                 Selvam enjoys the distinction of being the youngest
                 Pro-Chancellor of a University in the world, which has been
                 recognized by the Limca Book of Records, 2005. He holds a
@@ -1258,12 +1258,12 @@ export default function Committee() {
 
             <div className="cprof-description">
               <p>
-                Nakamura Kazuho is currently serving as an Associate Professor
-                at the Department of Material Science and Chemical Engineering
-                at Yokohama National University, Japan. He has done significant
-                research in various fields such as Filtration, Unit Processes,
-                Zeta Potentials and produced a thesis on the study of Filtration
-                and Backwashing Behaviors...
+                Dr. Nakamura Kazuho is currently serving as an Associate
+                Professor at the Department of Material Science and Chemical
+                Engineering at Yokohama National University, Japan. He has done
+                significant research in various fields such as Filtration, Unit
+                Processes, Zeta Potentials and produced a thesis on the study of
+                Filtration and Backwashing Behaviors...
               </p>
 
               <button
@@ -1282,17 +1282,18 @@ export default function Committee() {
               title="Dr. KAZUHO NAKAMURA"
               keyboard={true}>
               <h5>
-                Nakamura Kazuho is currently serving as an Associate Professor
-                at the Department of Material Science and Chemical Engineering
-                at Yokohama National University, Japan. He has done significant
-                research in various fields such as Filtration, Unit Processes,
-                Zeta Potentials and produced a thesis on the study of Filtration
-                and Backwashing Behaviors. Additionally, he has also worked on
-                Grant-In-Aid Scientific Research Projects. Prof Nakamura was
-                honoured with the renowned DPI Award for his extensive
-                contribution to the field of research. He has also been
-                associated with several international universities as a Visiting
-                Professor such as in The University of California San Francisco.
+                Dr. Nakamura Kazuho is currently serving as an Associate
+                Professor at the Department of Material Science and Chemical
+                Engineering at Yokohama National University, Japan. He has done
+                significant research in various fields such as Filtration, Unit
+                Processes, Zeta Potentials and produced a thesis on the study of
+                Filtration and Backwashing Behaviors. Additionally, he has also
+                worked on Grant-In-Aid Scientific Research Projects. Prof
+                Nakamura was honoured with the renowned DPI Award for his
+                extensive contribution to the field of research. He has also
+                been associated with several international universities as a
+                Visiting Professor such as in The University of California San
+                Francisco.
               </h5>
             </MyModal>
           </div>
@@ -1316,9 +1317,9 @@ export default function Committee() {
 
             <div className="cprof-description">
               <p>
-                Jakub Drewnowski works as a Professor in the Department of Civil
-                & Environmental Engineering at Gdańsk University of Technology,
-                Poland. His research interests include Wastewater
+                Dr. Jakub Drewnowski works as a Professor in the Department of
+                Civil & Environmental Engineering at Gdańsk University of
+                Technology, Poland. His research interests include Wastewater
                 Denitrification, Water and Wastewater Treatment, and Wastewater
                 Analysis and Purification Technologies with simulation tools. He
                 has....
@@ -1340,9 +1341,9 @@ export default function Committee() {
               title="Dr. JAKUB DREWNOWSKI"
               keyboard={true}>
               <h5>
-                Jakub Drewnowski works as a Professor in the Department of Civil
-                & Environmental Engineering at Gdańsk University of Technology,
-                Poland. His research interests include Wastewater
+                Dr. Jakub Drewnowski works as a Professor in the Department of
+                Civil & Environmental Engineering at Gdańsk University of
+                Technology, Poland. His research interests include Wastewater
                 Denitrification, Water and Wastewater Treatment, and Wastewater
                 Analysis and Purification Technologies with simulation tools. He
                 has numerous publications in peer-reviewed journals for the
