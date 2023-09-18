@@ -60,7 +60,7 @@ export default function Carousel() {
         <Offcanvas.Body>
           <div className="offcanva-container">
             <h3 style={{ textAlign: "center", fontWeight: "500" }}>
-              Important Updates
+              New Updates
             </h3>
 
             <ul>
