@@ -184,6 +184,71 @@
     bottom: 3%;
 }
 
+.offcanvas {
+    min-width: 600px;
+    /* Adjust the width as needed */
+}
+
+
+.crousel-left-container button h4 a {
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: #fff;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 5px;
+
+    z-index: 1;
+}
+
+.crousel-left-container button h4 a:hover {
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+.crousel-left-container button h4 a:before {
+    /* position: absolute; */
+
+    /* top: 50%; */
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    padding: 17px 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a4, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 5px;
+    z-index: 1;
+
+}
+
+.crousel-left-container button h4 a:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}
+
+
 .cloab-carousel img {
     height: 38px;
     width: 20%;
@@ -231,7 +296,7 @@
     color: #fff;
     font-size: calc(0.7* (1vh + 1vw));
     font-weight: 400;
-    margin-top: 5%;
+    margin-top: 2%;
     border: none;
     cursor: pointer;
     border-radius: 8px;
@@ -245,6 +310,10 @@
 .offcanva-container button:hover {
     background: #6798a8;
 
+}
+
+#points h5 {
+    margin-top: 2%;
 }
 
 
@@ -398,6 +467,13 @@
 }
 
 @media screen and (max-width: 600px) {
+
+    .offcanvas {
+        min-width: auto;
+        /* Adjust the width as needed */
+    }
+
+
     .overlay {
         margin-top: 65px;
         height: 93.1vh;

@@ -123,6 +123,11 @@
     width: 90%;
     border-bottom: 1px solid rgb(0, 0, 0);
     padding-bottom: 1%;
+    text-decoration: none;
+}
+
+.about_left_container .clg_name:hover {
+    color: rgb(57, 120, 215);
 }
 
 .about_left_container .clg_name h1 {

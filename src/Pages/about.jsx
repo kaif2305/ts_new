@@ -67,8 +67,10 @@ export default function About() {
       <div className="about_flex_container1">
         <div className="about_left_container">
           <div className="clg_name">
-            <h1>Vellore Institute of Technology, Vellore</h1>
-            <h1>INDIA</h1>
+            <a href="https://vit.ac.in/" target="blank_">
+              <h1>Vellore Institute of Technology, Vellore</h1>
+              <h1>INDIA</h1>
+            </a>
           </div>
 
           <p>
@@ -96,8 +98,10 @@ export default function About() {
 
         <div className="about_right_container2">
           <div className="clg_name">
-            <h2>Yokohama National University, Yokohama</h2>
-            <h2>JAPAN</h2>
+            <a href="https://www.ynu.ac.jp/english/" target="blank_">
+              <h2>Yokohama National University, Yokohama</h2>
+              <h2>JAPAN</h2>
+            </a>
           </div>
           <p>
             Founded in 1874, Yokohama National University has emerged as a
@@ -118,8 +122,10 @@ export default function About() {
       <div className="about_flex_container1">
         <div className="about_left_container">
           <div className="clg_name">
-            <h1>Gdańsk University of Technology, Gdańsk</h1>
-            <h1>POLAND</h1>
+            <a href="https://pg.edu.pl/en" target="blank_">
+              <h1>Gdańsk University of Technology, Gdańsk</h1>
+              <h1>POLAND</h1>
+            </a>
           </div>
 
           <p>
