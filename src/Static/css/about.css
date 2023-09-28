@@ -126,9 +126,24 @@
     text-decoration: none;
 }
 
-.about_left_container .clg_name:hover {
+.about_left_container .clg_name a {
+    text-decoration: none;
+    color: black;
+}
+
+.about_left_container .clg_name a:hover {
     color: rgb(57, 120, 215);
 }
+
+.about_right_container2 .clg_name a {
+    text-decoration: none;
+    color: black;
+}
+
+.about_right_container2 .clg_name a:hover {
+    color: rgb(57, 120, 215);
+}
+
 
 .about_left_container .clg_name h1 {
     padding: 0;

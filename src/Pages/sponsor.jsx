@@ -34,8 +34,8 @@ export default function Sponsor() {
         </div>
 
         <div className="team_member-s">
-          <div className="img-container1-sponsors2">
-            <img id="d1" src="images/WeCare Logo.png" alt="our_team" />
+          <div className="img-container1-sponsors3">
+            <img src="images/WeCare Logo.jpeg" alt="our_team" />
           </div>
           <h3>Usha Surgical</h3>
         </div>

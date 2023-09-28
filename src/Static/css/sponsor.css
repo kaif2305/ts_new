@@ -84,6 +84,20 @@
     object-fit: contain;
 }
 
+.our_team .team_member-s .img-container1-sponsors3 {
+    width: 100%;
+    height: 70%;
+}
+
+.our_team .team_member-s .img-container1-sponsors3 img {
+    width: 210px;
+    /* height: 110px; */
+    /* margin-top: 8%; */
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
 .our_team .team_member-s .img-container2-partner {
     width: 100%;
     height: 70%;
@@ -106,7 +120,7 @@
 .our_team .team_member-s .img-container3-partner img {
     /* width: 200px; */
     height: 48px;
-    margin-top: 8%;
+    /* margin-top: 8%; */
     margin-left: auto;
     margin-right: auto;
     object-fit: contain;
@@ -219,6 +233,15 @@
         object-fit: contain;
     }
 
+    .our_team .team_member-s .img-container1-sponsors3 img {
+        width: 150px;
+        /* height: 110px; */
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
+    }
+
     .our_team .team_member-s .img-container2-partner img {
         width: 120px;
     }
@@ -281,6 +304,15 @@
         object-fit: contain;
     }
 
+    .our_team .team_member-s .img-container1-sponsors3 img {
+        width: 110px;
+        /* height: 110px; */
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
+    }
+
     .our_team .team_member-s .img-container2-partner img {
         width: 90px;
     }
@@ -303,7 +335,7 @@
 @media screen and (max-width: 450px) {
     .our_team .team_member-s {
         width: 180px;
-        height: 140px;
+        height: 180px;
     }
 
     .wrapper h1 {
@@ -327,6 +359,16 @@
         margin-right: auto;
         object-fit: contain;
     }
+
+    .our_team .team_member-s .img-container1-sponsors3 img {
+        width: 110px;
+        /* height: 110px; */
+        margin-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
+    }
+
 
     .our_team .team_member-s .img-container2-partner img {
         width: 90px;

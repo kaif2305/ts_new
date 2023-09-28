@@ -13,6 +13,8 @@ import Speakers from "./Pages/speaker";
 
 import Sponsors from "./Pages/sponsor"
 
+import Jrnl from "./Pages/jrnl"
+
 import Home from "./Pages/Home/home";
 
 import IntAdv from "./Pages/internatinoal_advisory";
@@ -33,6 +35,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/about us" element={<About />} />
           <Route path="/registration" element={<PaperSubmission />} />
+          <Route path="/associated journels" element={<Jrnl />} />
           <Route path="/speakers" element={<Speakers />} />
           <Route path="/conference theme" element={<Themes />} />
           <Route path="/international advisory" element={<IntAdv />} />
