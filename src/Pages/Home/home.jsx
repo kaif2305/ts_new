@@ -16,7 +16,8 @@ export default function Home() {
       <div className="marq">
         <marquee behavior="slider" width="100%" direction="left">
           {" "}
-          Early Bird Registration closes by 30<sup>th</sup> September,2023
+          As per Delegates requests, Early Bird Registration extended till
+          October 2<sup>nd</sup>, 2023.
         </marquee>
       </div>
       <Countdown />
