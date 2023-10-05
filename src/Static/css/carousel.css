@@ -102,6 +102,7 @@
     font-weight: 600;
     font-size: calc(0.8*(1vh + 1vw));
     align-items: center;
+    font-family: "Montserrat";
 }
 
 .crousel-middle-section {
