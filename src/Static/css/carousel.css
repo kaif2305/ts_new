@@ -89,6 +89,21 @@
     background: linear-gradient(to bottom, rgb(0 0 0 / 12%), rgb(0 0 0 / 60%));
 }
 
+.imp1 {
+    /* padding: 4px 4px; */
+    margin-top: 2%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.574);
+
+}
+
+.imp1 p {
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+    font-size: calc(0.8*(1vh + 1vw));
+    align-items: center;
+}
+
 .crousel-middle-section {
     z-index: 2;
     position: absolute;
@@ -128,7 +143,7 @@
     border: none;
     color: white;
     transition: all 0.3s ease 0s;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .crousel-middle-section .crousel-left-container button:hover {
@@ -368,6 +383,14 @@
         font-size: calc(1.2*(1.2vh + 1.2vw));
     }
 
+    .imp1 {
+        width: 100%;
+    }
+
+    .imp1 p {
+        font-size: calc(0.8*(1.2vh + 1.2vw));
+    }
+
 
     .crousel-middle-section .crousel-right-container h5 {
         font-size: calc(1*(1.2vh + 1.2vw));
@@ -462,6 +485,10 @@
 
     .offcanva-container button {
         font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    .imp1 p {
+        font-size: calc(0.8*(1.5vh + 1.5vw));
     }
 
 }
