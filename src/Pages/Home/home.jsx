@@ -16,8 +16,7 @@ export default function Home() {
       <div className="marq">
         <marquee behavior="slider" width="100%" direction="left">
           {" "}
-          As per Delegates requests, Early Bird Registration extended till
-          October 2<sup>nd</sup>, 2023.
+          Full Paper Submission deadline is 31<sup>st</sup> October 2023.
         </marquee>
       </div>
       <Countdown />
