@@ -15,7 +15,7 @@ export default function Home() {
       <ColabClgHome />
       <Carousel />
       <div className="marq">
-        <marquee behavior="slider" width="100%" direction="left">
+        {/* <marquee behavior="slider" width="100%" direction="left">
           {" "}
           Authors can now submit their full papers to the journal.
           &nbsp;&nbsp;&nbsp; Procedure regarding the same can be found using
@@ -23,7 +23,7 @@ export default function Home() {
           <a href={doc1} target="_blank" style={{ color: "red" }}>
             link
           </a>
-        </marquee>
+        </marquee> */}
       </div>
       <Countdown />
     </div>

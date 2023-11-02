@@ -14,6 +14,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Stack from "react-bootstrap/Stack";
 
+import doc1 from "../../Static/documents/Special issue procedure - Environmental Science and Pollution Research.docx";
+
 import "../../Static/css/carousel.css";
 
 export default function Carousel() {
@@ -32,13 +34,15 @@ export default function Carousel() {
           <h1>
             Sustainable Technologies for <br /> Water and Wastewater Treatment
           </h1>
-          {/* <div className="imp1">
+          <div className="imp1">
             <p>
-              Delegates are informed to not send the papers directly to the
-              journal. It has to be verified by the International Advisory
-              Committee prior to the submission.
+              Authors can now submit their full papers to the journal. Procedure
+              regarding the same can be found using this{" "}
+              <a href={doc1} target="_blank">
+                link
+              </a>
             </p>
-          </div> */}
+          </div>
 
           <button onClick={handleShow}>
             <h4>
