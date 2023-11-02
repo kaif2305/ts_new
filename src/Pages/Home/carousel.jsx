@@ -32,13 +32,13 @@ export default function Carousel() {
           <h1>
             Sustainable Technologies for <br /> Water and Wastewater Treatment
           </h1>
-          <div className="imp1">
+          {/* <div className="imp1">
             <p>
               Delegates are informed to not send the papers directly to the
               journal. It has to be verified by the International Advisory
               Committee prior to the submission.
             </p>
-          </div>
+          </div> */}
 
           <button onClick={handleShow}>
             <h4>
