@@ -38,9 +38,9 @@ export default function Toggle() {
             <Link to="/conference theme">Conference Themes </Link>
           </a>
 
-          <a style={{ animationDelay: "0.5s" }} onClick={scrollToTop}>
+          {/* <a style={{ animationDelay: "0.5s" }} onClick={scrollToTop}>
             <Link to="/registration">Registration</Link>
-          </a>
+          </a> */}
 
           <a style={{ animationDelay: "0.5s" }} onClick={scrollToTop}>
             <Link to="/associated journels">Associated Journals</Link>

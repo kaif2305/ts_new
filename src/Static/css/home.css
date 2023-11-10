@@ -3,15 +3,37 @@
 
 .marq {
     position: relative;
-    background-color: #fafafa;
+    background-color: #ffffff;
     font-family: 'Montserrat';
     padding-top: 0.6%;
     color: rgba(32, 157, 216, 1);
     font-weight: 00;
     font-size: calc(1*(1vh + 1vw));
+    text-align: center;
 
 }
 
+.marq marquee {
+    background-color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0% 0%;
+    text-align: center;
+    color: red;
+    font-weight: 400;
+}
+
+.marq h4 {
+    font-size: calc(1*(1vh + 1vw));
+}
+
+.marq .btn-group-lg>.btn,
+.btn-lg {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-font-size: calc(0.7*(1vh + 1vw));
+    --bs-btn-border-radius: var(--bs-border-radius-lg);
+}
 
 
 @media screen and (max-width: 920px) {
@@ -20,4 +42,16 @@
         font-size: calc(1*(1.5vh + 1.5vw));
 
     }
+
+    .marq h4 {
+        font-size: calc(1*(1.5vh + 1.5vw));
+    }
+
+    .btn-lg {
+        --bs-btn-padding-y: 0.4rem;
+        --bs-btn-padding-x: 0.8rem;
+        --bs-btn-font-size: calc(0.8*(1.5vh + 1.5vw));
+        --bs-btn-border-radius: var(--bs-border-radius-lg);
+    }
+
 }
