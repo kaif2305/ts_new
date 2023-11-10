@@ -720,10 +720,10 @@ export default function Committee() {
         <div className="cprof-outer">
           <div className="cprof-container2">
             <div className="cprof-basic-details">
-              <h1>Dr. RAMBABU KODALI</h1>
+              <h1>DR. V. S. KANCHANA BHAASKARAN</h1>
 
               <div className="cprof-img-container">
-                <img src="images/Rambabu Kodali.png" alt="cprof-outer" />
+                <img src="images/ProVCadmn.jpg" alt="cprof-outer" />
               </div>
 
               <h2>Vice Chancellor</h2>
@@ -736,11 +736,11 @@ export default function Committee() {
 
             <div className="cprof-description">
               <p>
-                Dr. Rambabu Kodali is the current Vice Chancellor of Vellore
-                Institute of Technology, Vellore. He obtained his BE, M.Tech and
-                PhD degrees from IIT Kharagpur. He worked in BIT-Pilani-Pilani
-                campus, where he was nominated as "Shri S.K Birla Chair
-                Professor". He has...
+                Dr. V. S. Kanchana Bhaaskaran obtained her Bachelors in
+                Engineering from the IE(I), Masters from BITS and PhD from
+                Vellore Institute of Technology. With nearly 40 years of
+                experience, Professor Bhaaskaran has served industry, teaching
+                and research. After 11 years....
               </p>
 
               <button
@@ -756,22 +756,30 @@ export default function Committee() {
             <MyModal
               show={ScModal1}
               onHide={sc1}
-              title="Dr. RAMBABU KODALI"
+              title="DR. V. S. KANCHANA BHAASKARAN"
               keyboard={true}>
               <h5>
-                Rambabu Kodali is the current Vice Chancellor of Vellore
-                Institute of Technology, Vellore. He obtained his BE, M.Tech and
-                PhD degrees from IIT Kharagpur. He worked in the BITS-Pilani
-                campus, where he was nominated as "Shri S.K Birla Chair
-                Professor". He has made significant contributions and completed
-                several research projects in the field of flexible manufacturing
-                systems. Dr. Rambabu has published over 200 papers and has
-                supervised over 13 PhDs in various international, national
-                journals and conferences. He became the Director of NIT
-                Jamshedpur in 2012 and then became the first Mentor Director of
-                IIIT Ranchi in 2016. Later on, he went on to become the Pro-Vice
-                chancellor at Kalinga Institute of Industrial Technology and the
-                Director of MITS Madanapalle.
+                Dr. V. S. Kanchana Bhaaskaran obtained her Bachelors in
+                Engineering from the IE(I), Masters from BITS and PhD from
+                Vellore Institute of Technology. With nearly 40 years of
+                experience, Professor Bhaaskaran has served industry, teaching
+                and research. After 11 years of teaching in SSN College of
+                Engineering, she joined VIT Chennai and had been donning the
+                role of the Dean of Academics. Her areas of specialization
+                include VLSI Design for Low Power, Microprocessor Architectures
+                and Linear Integrated Circuits. She has published around 140
+                papers in international journals and reputed conferences, and
+                has three patents published in her own field of research. She
+                writes on Higher Education and impact of ICT in learning, and
+                delivers invited lectures. She is the author of 4 books on
+                Linear Integrated Circuits and related subjects published by
+                McGraw Hill Education and has contributed to book chapters on
+                Low Power VLSI Circuit Design. She is a reviewer of
+                international journals and conferences. She is a Fellow of the
+                Institution of Electronics and Telecommunication Engineers
+                (IETE), Fellow of the Institution of Engineers (India) (IEI),
+                Senior Member in IEEE, Member in IET and Life Member of the
+                ISTE.
               </h5>
             </MyModal>
           </div>
@@ -958,11 +966,11 @@ export default function Committee() {
             <div className="cprof-container1">
               <div className="cprof-basic-details">
                 <div className="cprof-img-container">
-                  <img src="images/Rambabu Kodali.png" alt="cprof-outer" />
+                  <img src="images/ProVCadmn.jpg" alt="cprof-outer" />
                 </div>
 
                 <div className="cprof-details">
-                  <h1>Dr. RAMBABU KODALI</h1>
+                  <h1>DR. V. S. KANCHANA BHAASKARAN</h1>
                   <h2>Vice Chancellor</h2>
                   <h3>
                     Vellore Institute of Technology,
@@ -974,12 +982,12 @@ export default function Committee() {
 
               <div className="cprof-description">
                 <p>
-                  Dr. Rambabu Kodali is the current Vice Chancellor of Vellore
-                  Institute of Technology, Vellore. He obtained his BE, M.Tech
-                  and PhD degrees from IIT Kharagpur. He worked in
-                  BIT-Pilani-Pilani campus, where he was nominated as "Shri S.K
-                  Birla Chair Professor". He has made significant contributions
-                  and completed...
+                  Dr. V. S. Kanchana Bhaaskaran obtained her Bachelors in
+                  Engineering from the IE(I), Masters from BITS and PhD from
+                  Vellore Institute of Technology. With nearly 40 years of
+                  experience, Professor Bhaaskaran has served industry, teaching
+                  and research. After 11 years of teaching in SSN College of
+                  Engineering, she...
                 </p>
 
                 <button
@@ -1415,7 +1423,7 @@ export default function Committee() {
                 research articles on ancient water storage and drainage systems.
                 She was part of “The rain water project” for restoration of a
                 unique water storage structure called step wells in India. She
-                has done repair and restoration for more than  30  heritage 
+                has done repair and restoration for more than  30 heritage 
                 structures  in India  and  documented  around 20 plant  and
                 organic additives  used in the  ancient structure She serves as
                 member in scientific expert committee of Hindu Religious  and

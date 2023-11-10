@@ -31,7 +31,7 @@ export default function Home() {
           target="_blank"
           href={visa}
           size="lg">
-          Download Conference Visa
+          Conference Visa Notification from MHA, GoI
         </Button>
       </div>
       <Countdown />
