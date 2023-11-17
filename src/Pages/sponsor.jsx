@@ -35,9 +35,16 @@ export default function Sponsor() {
 
         <div className="team_member-s">
           <div className="img-container1-sponsors3">
-            <img src="images/WeCare Logo.jpeg" alt="our_team" />
+            <img src="images/WeCare Logo.png" alt="our_team" />
           </div>
           <h3>Usha Surgical</h3>
+        </div>
+
+        <div className="team_member-s">
+          <div className="img-container1-sponsors">
+            <img src="images/serb_logo.png" alt="our_team" />
+          </div>
+          <h3>Science and Engineering Research Board</h3>
         </div>
       </div>
     </div>
