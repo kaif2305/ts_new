@@ -305,10 +305,14 @@
     font-size: calc(0.8* (1vh + 1vw));
     font-weight: 400;
     margin-top: 5%;
+    display: inline-flex;
 }
 
+
+
+
 .offcanva-container button {
-    padding: 2% 5%;
+    padding: 1% 5%;
     color: #fff;
     font-size: calc(0.7* (1vh + 1vw));
     font-weight: 400;

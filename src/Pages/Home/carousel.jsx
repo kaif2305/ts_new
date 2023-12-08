@@ -4,9 +4,9 @@ import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Abstract from "../../Static/documents/Abstract Template.docx";
+import Schedule from "../../Static/documents/TS Schedule.pdf";
 
-import Brochure from "../../Static/documents/brochure.pdf";
+import Invite from "../../Static/documents/Dinner Invite.pdf";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
@@ -46,7 +46,7 @@ export default function Carousel() {
 
           <button onClick={handleShow}>
             <h4>
-              <a>New Updates</a>
+              <a>Invite & Schedule</a>
             </h4>
           </button>
         </div>
@@ -71,22 +71,28 @@ export default function Carousel() {
         <Offcanvas.Body>
           <div className="offcanva-container">
             <h3 style={{ textAlign: "center", fontWeight: "500" }}>
-              New Updates
+              Technoscape
             </h3>
 
             <ul>
               <li>
-                <h5>Please do fill the google form given below</h5>
-                <a
-                  href={
-                    "https://docs.google.com/forms/d/e/1FAIpQLSe5hrRocIV8lE0Q1kAjFST_7VX9o3ZwkimQWtz7R6AP4SBB6Q/viewform?usp=sf_link"
-                  }
-                  target="_blank">
-                  <button>Form Link</button>
+                <h5>Kesar - Dinner Invite </h5>
+                <a href={Invite} target="_blank">
+                  <button>Link</button>
                 </a>
               </li>
 
               <li>
+                <h5>
+                  Program Schedule - Technoscape2023 <br />{" "}
+                </h5>
+                <h6>(Subject to change)</h6>
+                <a href={Schedule} target="_blank">
+                  <button>Link</button>
+                </a>
+              </li>
+
+              {/* <li>
                 <h5>
                   If you need <b>Acceptance Letter</b> in hard copy, please
                   contact at: &nbsp;
@@ -123,7 +129,7 @@ export default function Carousel() {
                     maheshgpillai@vit.ac.in
                   </a>
                 </h5>
-              </li>
+              </li> */}
             </ul>
           </div>
         </Offcanvas.Body>
